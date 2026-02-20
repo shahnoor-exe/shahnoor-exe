@@ -54,6 +54,24 @@ Cybersecurity Analysis
 
 Conducted a theoretical analysis on de-anonymization attacks and security vulnerabilities within the TOR network.
 
+
+🌾 AgroGuard AI — Smart Agriculture Platform (2026)
+
+Full-Stack AI + Flutter + Government API Integration | Hackathon Project (CoderPirates)
+
+Built a production-ready smart farming platform for Indian farmers combining AI/ML, IoT sensor monitoring, and direct integration with 5 Indian government agricultural portals — all accessible in 5 regional languages.
+
+**Key Features:**
+- 🤖 AI Crop Recommendation — RandomForest ML model with 7 soil/weather inputs
+- 🔍 Plant Disease Detection — CNN-based image analysis covering 40+ diseases
+- 📡 Real-time IoT Dashboard — 9 sensor metrics (N, P, K, pH, moisture, temperature, humidity, light, rainfall)
+- 🏛️ Government Portal Hub — eNAM (live mandi prices), Agmarknet (market trends), mKisan (advisories), myScheme (subsidy eligibility checker), PMFBY (crop insurance calculator)
+- 🌐 Multi-Language Support — English, Hindi, Punjabi, Tamil, Bengali
+
+**Stack:** Python · Flask · scikit-learn · TensorFlow · Flutter · Dart · Material Design 3 · SQLite
+
+🔗 [View Repository](https://github.com/shahnoor-exe/AgroGuard-AI)
+
 💼 Professional Experience
 
 Sales Executive Manager & Technical Operator @ Glamarode (Startup)
