@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Hi there, I'm Shahnoor Ahmed Laskar 👋
 
@@ -53,6 +53,27 @@ Built a **production-ready smart farming platform** for Indian farmers combining
 **Stack:** `Python` `Flask` `scikit-learn` `TensorFlow` `Flutter` `Dart` `Material Design 3` `SQLite`
 
 [![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/AgroGuard-AI)
+
+---
+
+### 🍽️ Ann-Sanjivani AI — Food Rescue Platform `2026`
+> **Full-Stack AI + FastAPI + React + 4 ML Models** | Hackathon Project *(CoderPirates)*
+
+Built a **production-grade food rescue platform** that connects surplus-food restaurants with NGOs and hunger-relief organizations — powered by real ML models, WebSocket real-time tracking, and a beautiful dark-mode UI in **6 regional languages**.
+
+| Feature | Details |
+|---|---|
+| 🤖 Surplus Prediction | XGBoost regression with 6 real features |
+| 🗺️ Route Optimization | Google OR-Tools VRP + 2-opt solver |
+| 🍲 Food Classification | IndicBERT NLP + ViT Vision Transformer |
+| ⏱️ ETA Prediction | Keras LSTM sequence model |
+| 🔐 Auth | FastAPI JWT + Appwrite cloud sync |
+| 📡 Real-Time | WebSocket order tracking + Firebase GPS |
+| 🌍 Multi-Language | English · Hindi · Bengali · Tamil · Marathi · French |
+
+**Stack:** `Python` `FastAPI` `React 18` `TypeScript` `TailwindCSS` `XGBoost` `TensorFlow` `OR-Tools` `Appwrite` `Firebase`
+
+[![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/Ann-Sanjivani-AI)
 
 ---
 
