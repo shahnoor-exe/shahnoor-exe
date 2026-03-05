@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:3b82f6,100:a855f7&height=220&section=header&text=Shahnoor%20Ahmed%20Laskar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Developer%20%7C%20Full-Stack%20Engineer%20%7C%20Patent%20Holder&descSize=16&descAlignY=55&descColor=e0e0e0" width="100%" alt="Header" />
 
 <!-- TYPING SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=B.E.+CSE+(Honors)+in+Data+Science+%7C+CGPA+8.04;Building+Production-Grade+AI+Systems+%26+Full-Stack+Apps;Patent+Holder+%F0%9F%9A%97+%7C+JEE+Qualified+%F0%9F%8E%AF+%7C+NIT+Silchar+Seat)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=B.E.+CSE+(Honors)+in+Data+Science+%7C+CGPA+8.04;Building+Production-Grade+AI+Systems+%26+Full-Stack+Apps;Patent+Holder+%F0%9F%9A%97+%7C+JEE+Qualified+%F0%9F%8E%AF+%7C+NIT+Silchar+Seat)](https://git.io/typing-svg)
 
 </div>
 
@@ -318,9 +318,13 @@ Patent filed for automotive safety
 
 <div align="center">
 
-### 💬 Quote of the Day
+### ✨ Words I Live By
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
+> *"A single moment of absolute focus can rewrite a lifetime of uncertainty."* 
+> *"My terminal is the sanctuary where mysteries unfold."* 🏛️💾 
+> *"A single insight is worth a thousand sleepless hours."* 👁️⚡
+>
+> — **Shahnoor Ahmed Laskar**
 
 </div>
 
