@@ -36,7 +36,7 @@ const shahnoor = {
     
     achievements: [
         "🚗 Patent Filed: Adaptive Fog Light System",
-        "🎯 JEE Mains Qualified → NIT Silchar (CSE)",
+        "🎯 JEE Mains Qualified → NIT Silchar (ECE)",
         "📐 National Math Olympiad Phase 1 Cleared",
         "🏆 2 Hackathon Projects (CoderPirates)"
     ],
