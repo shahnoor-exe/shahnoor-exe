@@ -290,8 +290,17 @@ Patent filed for automotive safety
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee" alt="GitHub Stats" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=a1a1aa&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=a1a1aa" alt="GitHub Streak" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee&count_private=true&include_all_commits=true&show=prs_merged,prs_merged_percentage" alt="GitHub Stats" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=a1a1aa&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=a1a1aa&starting_year=2024" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+
+<!-- GITHUB TROPHIES -->
+<div align="center">
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=shahnoor-exe&theme=nord&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/shahnoor-exe)
 
 </div>
 
