@@ -288,11 +288,30 @@ Patent filed for automotive safety
 
 ## 📊 GitHub Analytics
 
+<!-- REAL GITHUB STATS -->
 <div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee&count_private=true&include_all_commits=true&show=prs_merged,prs_merged_percentage" alt="GitHub Stats" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=a1a1aa&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=a1a1aa&starting_year=2024" alt="GitHub Streak" />
+### 📈 Real GitHub Stats
+```
+🎯 Total Contributions: 66 (2024-2026)
+📝 Total Commits: 65+
+🔄 Pull Requests: 1 merged (exoplanet-backend)
+⭐ Total Stars Earned: 0
+📊 Contributed to Repos: 12+
+🏆 Profile Views: 2,000+
+```
 
+</td>
+<td align="center" width="50%">
+
+<img src="https://streak-stats.demolab.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=a1a1aa&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=a1a1aa&starting_year=2024" alt="GitHub Streak" />
+
+</td>
+</tr>
+</table>
 </div>
 
 <br/>
