@@ -297,10 +297,23 @@ Patent filed for automotive safety
 
 <br/>
 
+<!-- CONTRIBUTION CALENDAR (mirrors actual GitHub graph) -->
+<div align="center">
+
+### 📅 Contribution Calendar
+
+<img src="https://ghchart.rshah.org/22d3ee/shahnoor-exe" alt="Shahnoor's Contribution Calendar" width="100%" />
+
+</div>
+
+<br/>
+
 <!-- GITHUB TROPHIES -->
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=shahnoor-exe&theme=nord&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/shahnoor-exe)
+### 🏆 GitHub Trophies
+
+<img src="https://github-profile-trophy.vercel.app/?username=shahnoor-exe&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=6" alt="GitHub Trophies" />
 
 </div>
 
