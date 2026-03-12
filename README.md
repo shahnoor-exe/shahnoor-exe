@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:3b82f6,100:a855f7&height=220&section=header&text=Shahnoor%20Ahmed%20Laskar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Developer%20%7C%20Full-Stack%20Engineer%20%7C%20Patent%20Holder&descSize=16&descAlignY=55&descColor=e0e0e0" width="100%" alt="Header" />
@@ -83,7 +83,7 @@ const shahnoor = {
 <h4>🧠 Frameworks & AI/ML</h4>
 <p>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
 <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
@@ -102,6 +102,7 @@ const shahnoor = {
 <img src="https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white" />
 <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" />
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
 <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" />
 </p>
@@ -151,9 +152,41 @@ Built a **production-grade food rescue platform** connecting surplus-food restau
 | ⏱️ ETA Prediction | Keras LSTM sequence model |
 | 📡 Real-Time | WebSocket + Firebase GPS |
 
-**Stack:** `Python` `FastAPI` `React 18` `TypeScript` `TailwindCSS` `XGBoost` `OR-Tools` `Appwrite`
+**Stack:** `Python` `FastAPI` `React 19` `TypeScript` `TailwindCSS` `XGBoost` `OR-Tools` `Appwrite`
 
 [![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/Ann-Sanjivani-AI)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🪐 ExoPlanet Detection — AI Classifier `2026`
+> **FastAPI + XGBoost + React 19 + Tailwind CSS** | AI/ML + Full-Stack
+
+Built an end-to-end **AI exoplanet detection system** using NASA Kepler light curve data. Upload stellar flux CSV data and get instant XGBoost-powered classification with probability scores.
+
+| Feature | Details |
+|---|---|
+| 🤖 ML Model | XGBoost · configurable detection threshold |
+| 📄 CSV Pipeline | Upload → preprocess → predict → stream |
+| 🎨 Space-Themed UI | Vite 6 · React 19 · 30+ Tailwind animations |
+| 🌐 Live | Vercel frontend · Replit backend |
+
+**Stack:** `Python` `FastAPI` `XGBoost` `React 19` `TypeScript` `TailwindCSS`
+
+[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/exoplanet-backend)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://exoplanet-frontend-ten.vercel.app)
+
+</td>
+<td width="50%">
+
+### 🚗 Adaptive Vehicle Fog Light System `2025`
+> **Patent Filed** | Sensors & Hardware
+
+Designed an **automated fog light system** that dynamically adjusts intensity based on visibility sensors to enhance vehicle safety in low-visibility conditions.
+
+`IoT` `Sensors` `Hardware` `Patent`
 
 </td>
 </tr>
@@ -161,17 +194,7 @@ Built a **production-grade food rescue platform** connecting surplus-food restau
 
 <table>
 <tr>
-<td width="33%">
-
-### 🚗 Adaptive Vehicle Fog Light System `2025`
-> **Patent Filed** | Sensors & Hardware
-
-Designed an **automated fog light system** that dynamically adjusts intensity based on visibility sensors to enhance vehicle safety.
-
-`IoT` `Sensors` `Hardware` `Patent`
-
-</td>
-<td width="33%">
+<td width="50%">
 
 ### 🎓 Dreamforge — AI Career Guidance `2025`
 > **Application Development**
@@ -181,7 +204,7 @@ AI-driven career counselling app assisting students in choosing career paths bas
 `Python` `AI/ML` `Application Dev`
 
 </td>
-<td width="33%">
+<td width="50%">
 
 ### 🛡️ Security Flaws in TOR Network `2024`
 > **Cybersecurity Analysis**
@@ -268,7 +291,7 @@ Patent filed for automotive safety
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=a1a1aa&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=a1a1aa" alt="GitHub Streak" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=22d3ee&fire=a855f7&currStreakLabel=22d3ee&sideLabels=a1a1aa&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=a1a1aa" alt="GitHub Streak" />
 
 </div>
 
