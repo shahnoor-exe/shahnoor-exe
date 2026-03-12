@@ -252,7 +252,7 @@ Theoretical analysis on de-anonymization attacks and security vulnerabilities wi
 <td align="center" width="33%">
 <img src="https://img.shields.io/badge/JEE_Mains-Qualified-22d3ee?style=for-the-badge&labelColor=1a1a2e" /><br/>
 <b>🎯 JEE Mains & Advanced</b><br/>
-Secured CSE seat at <b>NIT Silchar</b>
+Secured ECE seat at <b>NIT Silchar</b>
 </td>
 <td align="center" width="33%">
 <img src="https://img.shields.io/badge/Math_Olympiad-Phase_1_Cleared-a855f7?style=for-the-badge&labelColor=1a1a2e" /><br/>
