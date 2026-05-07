@@ -335,14 +335,7 @@ Patent filed for automotive safety
 <td align="center" width="50%">
 
 ### 📈 Real GitHub Stats
-```
-🎯 Total Contributions: 66 (2024-2026)
-📝 Total Commits: 65+
-🔄 Pull Requests: 1 merged (exoplanet-backend)
-⭐ Total Stars Earned: 0
-📊 Contributed to Repos: 12+
-🏆 Profile Views: 2,000+
-```
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee" alt="GitHub Stats" />
 
 </td>
 <td align="center" width="50%">
