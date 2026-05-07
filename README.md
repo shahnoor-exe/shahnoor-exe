@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <!-- HEADER BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:3b82f6,100:a855f7&height=220&section=header&text=Shahnoor%20Ahmed%20Laskar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI/ML%20Developer%20%7C%20Full-Stack%20Engineer%20%7C%20Patent%20Holder&descSize=16&descAlignY=55&descColor=e0e0e0" width="100%" alt="Header" />
@@ -181,6 +181,51 @@ Built an end-to-end **AI exoplanet detection system** using NASA Kepler light cu
 </td>
 <td width="50%">
 
+### 🔗 ChainGuard `2026`
+> **Supply Chain Management System**
+
+A comprehensive system for managing and securing supply chain processes.
+
+**Stack:** `JavaScript`
+
+[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/ChainGuard)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-0052CC?style=for-the-badge&logo=vercel&logoColor=white)](https://chain-guard-olive.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔊 OmNaad `2026`
+> **Omni-Channel AI Communication Platform** | Bank of India | PSBs Hackathon IDEA 2.0
+
+OmNaad - Omni-Channel AI Communication Platform.
+
+**Stack:** `TypeScript`
+
+[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/omnaad)
+
+</td>
+<td width="50%">
+
+### 📑 SAMVID-Insur-AI `2026`
+> **AI Insurance Assistant**
+
+A smart AI assistant designed for the insurance domain.
+
+**Stack:** `TypeScript`
+
+[![View Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahnoor-exe/SAMVID-Insur-AI)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-0052CC?style=for-the-badge&logo=vercel&logoColor=white)](https://samvid-insur-ai.vercel.app)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%">
+
 ### 🚗 Adaptive Vehicle Fog Light System `2025`
 > **Patent Filed** | Sensors & Hardware
 
@@ -189,12 +234,7 @@ Designed an **automated fog light system** that dynamically adjusts intensity ba
 `IoT` `Sensors` `Hardware` `Patent`
 
 </td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%">
+<td width="33%">
 
 ### 🎓 Dreamforge — AI Career Guidance `2025`
 > **Application Development**
@@ -204,7 +244,7 @@ AI-driven career counselling app assisting students in choosing career paths bas
 `Python` `AI/ML` `Application Dev`
 
 </td>
-<td width="50%">
+<td width="33%">
 
 ### 🛡️ Security Flaws in TOR Network `2024`
 > **Cybersecurity Analysis**
