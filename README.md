@@ -54,7 +54,7 @@ const shahnoor = {
 </td>
 <td width="45%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahnoor-exe&layout=donut-vertical&theme=transparent&hide_border=true&title_color=22d3ee&text_color=a1a1aa&bg_color=0d1117" alt="Top Languages" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shahnoor-exe&layout=donut-vertical&theme=transparent&hide_border=true&title_color=22d3ee&text_color=a1a1aa&bg_color=0d1117" alt="Top Languages" />
 
 </td>
 </tr>
@@ -335,7 +335,7 @@ Patent filed for automotive safety
 <td align="center" width="50%">
 
 ### 📈 Real GitHub Stats
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee" alt="GitHub Stats" />
+<img width="100%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=transparent&hide_border=true&title_color=22d3ee&icon_color=22d3ee&text_color=a1a1aa&bg_color=0d1117&ring_color=22d3ee" alt="GitHub Stats" />
 
 </td>
 <td align="center" width="50%">
