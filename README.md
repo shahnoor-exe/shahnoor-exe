@@ -29,8 +29,8 @@
 <tr>
 <td width="42%" align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg" />
-    <img src="./assets/portrait-ascii.svg" width="520" alt="Animated terminal-style ASCII portrait generated from Shahnoor Ahmed Laskar's real profile image" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg?v=1" />
+    <img src="./assets/portrait-ascii.svg?v=1" width="520" alt="Animated terminal-style ASCII portrait generated from Shahnoor Ahmed Laskar's real profile image" />
   </picture>
 </td>
 <td width="58%" align="center">
@@ -107,7 +107,7 @@ $ cat interests.txt
 <br/>
 
 <a href="https://github.com/shahnoor-exe">
-  <img src="./assets/top-languages.svg" width="420" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
+  <img src="./assets/top-languages.svg?v=1" width="420" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
 </a>
 
 </td>
@@ -455,12 +455,12 @@ Patent filed for automotive safety
 <tr>
 <td align="center" width="50%">
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=shahnoor-exe&show_icons=true&theme=github_dark&hide_border=true&title_color=22d3ee&icon_color=8B5CF6&text_color=94A3B8&bg_color=0D1117&ring_color=14B8A6" alt="Shahnoor's GitHub Stats" />
+<img width="100%" src="./assets/github-stats.svg?v=1" alt="Shahnoor's GitHub Stats" />
 
 </td>
 <td align="center" width="50%">
 
-<img src="https://streak-stats.demolab.com/?user=shahnoor-exe&theme=transparent&hide_border=true&ring=8B5CF6&fire=22D3EE&currStreakLabel=22d3ee&sideLabels=94A3B8&dates=71717a&background=0d1117&currStreakNum=22d3ee&sideNums=94A3B8&starting_year=2024" alt="Shahnoor's GitHub Streak" />
+<img width="100%" src="./assets/github-streak.svg?v=1" alt="Shahnoor's GitHub Streak" />
 
 </td>
 </tr>

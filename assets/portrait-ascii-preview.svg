@@ -1,0 +1,518 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" width="520" height="440">
+  <title>Terminal ASCII Portrait (Preview)</title>
+  <defs><style>
+
+      .bg { fill: #0D1117; }
+      .frame { fill: none; stroke: #273449; stroke-width: 1.5; rx: 12; }
+      .titlebar { fill: #161B22; }
+      .dot-r { fill: #FF5F56; }
+      .dot-y { fill: #FFBD2E; }
+      .dot-g { fill: #27C93F; }
+      .title-text { fill: #8B949E; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 11px; text-anchor: middle; }
+      .prompt { fill: #22D3EE; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 11px; font-weight: bold; }
+      .cmd { fill: #E5E7EB; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 11px; }
+      .cursor { fill: #22D3EE; }
+      .ascii-char { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 6.5px; font-weight: 600; }
+      .ascii-line { opacity: 0; animation: reveal 0.1s ease-out forwards; }
+      @keyframes reveal { from { opacity: 0; transform: translateY(-2px); } to { opacity: 1; transform: translateY(0); } }
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .ascii-line { animation: none; opacity: 1; } .cursor { animation: none; opacity: 0; } }
+
+  </style></defs>
+  
+  <rect class="bg" width="520" height="440" rx="12"/>
+  <rect class="frame" x="0.75" y="0.75" width="518.5" height="438.5" rx="12"/>
+  
+  <rect class="titlebar" x="1" y="1" width="518" height="36" rx="12"/>
+  <rect class="titlebar" x="1" y="25" width="518" height="12"/>
+  <circle class="dot-r" cx="20" cy="19" r="6"/>
+  <circle class="dot-y" cx="38" cy="19" r="6"/>
+  <circle class="dot-g" cx="56" cy="19" r="6"/>
+  <text class="title-text" x="260.0" y="23">portrait.render — bash</text>
+
+  <text class="prompt" x="20" y="60">shahnoor@github:~$</text>
+  <text class="cmd" x="166" y="60">./render-portrait.sh</text>
+  <g>
+    <text class="ascii-line" y="86" style="animation-delay: 0.50s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="94" style="animation-delay: 0.54s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@%%%%@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="102" style="animation-delay: 0.58s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@#+=----===-=*#@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="110" style="animation-delay: 0.62s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="252.2">:::.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="271.7">====------</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="310.7">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="314.6">-+#@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="118" style="animation-delay: 0.66s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="240.5">:-::.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="263.9">-==----</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="291.2">:.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="302.9">----</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="318.5">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="322.4">**#@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="126" style="animation-delay: 0.70s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%#=-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="232.7">....:::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="260.0">--==-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="279.5">..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="291.2">--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="299.0">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="306.8">-==</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="318.5">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="322.4">-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="330.2">###@%@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="134" style="animation-delay: 0.74s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%+--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="224.9">:......:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="256.1">--------+*+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="299.0">:..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="310.7">-=-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="322.4">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="326.3">--%*%@%@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="142" style="animation-delay: 0.78s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%+---</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="217.1">:...:.&#160;..:--::::::::.&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="314.6">--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="322.4">--</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="330.2">-+%#%@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="150" style="animation-delay: 0.82s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="197.6">::::::......:::::.&#160;.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="279.5">-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="283.4">.&#160;&#160;&#160;&#160;&#160;&#160;.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="318.5">--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="330.2">-=###@%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="158" style="animation-delay: 0.86s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="193.7">:::::::...&#160;&#160;&#160;..&#160;..&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:-::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="334.1">-+##%@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="166" style="animation-delay: 0.90s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@%%%--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="185.9">::...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;.:..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="338.0">-=%%@%@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="174" style="animation-delay: 0.94s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@@@%==</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="182.0">:::.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...&#160;&#160;&#160;&#160;&#160;...:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="338.0">--#%%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="182" style="animation-delay: 0.98s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@%@*++</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="182.0">..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="341.9">=#%%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="190" style="animation-delay: 1.02s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@%%%@*#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="178.1">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="287.3">-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="291.2">::.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="341.9">=*%@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="198" style="animation-delay: 1.06s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="174.2">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="244.4">-===++=+==+****+-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="310.7">.&#160;&#160;&#160;&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="338.0">-*%%@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="206" style="animation-delay: 1.10s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@%%%@#=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="166.4">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="232.7">-=+*######%%%%%%%%%##*-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="322.4">&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="334.1">=#%%%%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="214" style="animation-delay: 1.14s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@%%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="166.4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="228.8">=+**######%%%%%%%%%%%%#*=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="330.2">-*%%#%%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="222" style="animation-delay: 1.18s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@%%%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="162.5">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="217.1">-=+*#######%%%%%%%%%%%%%%%%#=-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="334.1">::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="341.9">=*%%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="230" style="animation-delay: 1.22s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@%#+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="154.7">:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">-=++**#####%%%%%%%%%%%%%@@@@%%%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="334.1">-:--</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="349.7">*%@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="238" style="animation-delay: 1.26s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="154.7">:&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">=+**######%%%%%%%%%%%%%%%@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="334.1">::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="341.9">--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="349.7">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="353.6">-%%@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="246" style="animation-delay: 1.30s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="158.6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="193.7">-**#########%%%%%%%%%%%%%%%@@@@@@@@%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="338.0">..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="349.7">++#@%@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="254" style="animation-delay: 1.34s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@%@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="158.6">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="193.7">**##########%%%%%%%%%%%%%%%%@@@@@@@@#-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="341.9">.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="349.7">+#%@%@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="262" style="animation-delay: 1.38s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="162.5">&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="189.8">+*##########%%%%%%%%%%%%%%%%@@@@@@@@@%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="341.9">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="349.7">+#%@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="270" style="animation-delay: 1.42s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@%@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="158.6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="185.9">=*#########%%%%%%%%%%%%%%%%%@@@@@@@@@@%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="341.9">-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="345.8">-=+@%@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="278" style="animation-delay: 1.46s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="158.6">.&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="185.9">*#########%%%%%%%%%%%%%%%%%%@@@@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="341.9">::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="349.7">-+%@%@@@@@@@@@@@@@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="286" style="animation-delay: 1.50s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="154.7">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="162.5">**</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="170.3">&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">-####+-----=+*##%%%%%%%%%%%%%#*#####%@%@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="341.9">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="345.8">+*%%@@@@@@@@@@@@@%@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="294" style="animation-delay: 1.54s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@%@#%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="170.3">-&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">=##*=-=-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="213.2">:&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="236.6">=+##%%%%%%%#*=-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="295.1">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="299.0">-=+*###%%@+-+%@%@@@@@@@@@@@@@%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="302" style="animation-delay: 1.58s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@@@@@@@@@%%%%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="174.2">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">=#*+++****+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="224.9">:&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="236.6">-=**##%%%##*=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="287.3">-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="291.2">--=*######%@+-*@%@@@@@@@@@@@@@@%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="310" style="animation-delay: 1.62s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@@@@@@@@@@%@%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="174.2">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">-%*********++===+**######**++*###%%%%%%@=+@%@@@@@@@@@@@@@@@%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="318" style="animation-delay: 1.66s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@@@@@@@@@@@%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="174.2">.&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">-%##****+=====--=+**##%##*=--=+++*#%%%%@=*@%@@@@@@@@@@@@@@@%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="326" style="animation-delay: 1.70s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@@@@@@@@@@@@@@@@%@==</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="178.1">&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">-%*+=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="201.5">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">=-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="213.2">&#160;&#160;&#160;&#160;&#160;:..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="248.3">-+*#%%#+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="279.5">-::.&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="310.7">=%*#%%@+#@%@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="334" style="animation-delay: 1.74s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@%@@@@@@@@@@@@@@%@++</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="178.1">.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="182.0">-%*+=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="201.5">.&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="213.2">#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="217.1">.&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="232.7">+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="236.6">&#160;-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="244.4">--+*#%%%#=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="283.4">.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="287.3">++</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="295.1">&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="306.8">%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="314.6">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="318.5">+#%%@+#@%@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="342" style="animation-delay: 1.78s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@@@@@@@%%%@%@*+--%#**+++=====---==+#%%%%#*+=+++*#%%%%%%@+%@%@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="350" style="animation-delay: 1.82s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@@@@@@%%%%%%@#*==%##**++++++=--=++*#%%@%%#+-=+*##%%%%%%%*%@@@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="358" style="animation-delay: 1.86s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@@@@@%%%%%%%@%*=+#####**+====+**+**#%%@%%%%#***##%%%%%%%#@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="366" style="animation-delay: 1.90s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@@@%%%%%%%%%%%%@#+*####%%%%#####****##%%@@%%%%%%%%%%%%@%%%%@%@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="374" style="animation-delay: 1.94s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%@@%%%%%%%%%%%%%%@%=*#*###%%%%%###***###%%@@@%%%%%%%@@@@@%%%%@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="382" style="animation-delay: 1.98s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@%=+#####%%%%###***####%%%@@@%##%%%@@@@%%%#%@@@@@@@@@@@@@@@%%%%@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="390" style="animation-delay: 2.02s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@%+*#*####%%###*++#####%%%@@@@#*#%%%@@@%%%#%@%@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="398" style="animation-delay: 2.06s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@%*****#######*++=******#%%%#%#**#%%%%%%%##%@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="406" style="animation-delay: 2.10s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@%@%*********+=+***==+==+#%%%%%#+*##%%%###%@%@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="414" style="animation-delay: 2.14s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@%@%*+++++++=-=+***+++++*#%%%%%%***#######%@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="422" style="animation-delay: 2.18s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@@@@*++++++</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="213.2">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="221.0">-==+*++++*++*##%%%%#***#####%@%@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="430" style="animation-delay: 2.22s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%@@@%@#+++++=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="213.2">..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="224.9">-=+****####%%%%%%#*+*#*#**#%@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="438" style="animation-delay: 2.26s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%%@@@@%*+++++-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="217.1">-:&#160;&#160;.::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="244.4">----+==++*##+=-+###**%@%@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="446" style="animation-delay: 2.30s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%%@@@@@@%*++++==+**+=+++=--=*#%##%%*+*##**%@%@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="454" style="animation-delay: 2.34s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%@@@@@@%@%+++===+****+=+*######%%%%#+****#@%@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="462" style="animation-delay: 2.38s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%@@@@@@@@%@*====++******+++**##%%%%%#****#@%@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="470" style="animation-delay: 2.42s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%@@@@@@@@@%%+-==++*+***++===+*###%%###*+*%@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="478" style="animation-delay: 2.46s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%@@@@@@@@@@%@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="205.4">:-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="213.2">-=++*****+++++*#####%#*+=#%%@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="486" style="animation-delay: 2.50s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%@@@@@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="197.6">.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="209.3">:&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="221.0">-+**####%%%%%%%%%%#*==%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="314.6">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="322.4">%%%@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="494" style="animation-delay: 2.54s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%@@@@@@@@%%%%%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="197.6">&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">=@@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="217.1">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="224.9">-+***#####%%%%%%#*=+@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="318.5">&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="326.3">+@%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="502" style="animation-delay: 2.58s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%@@@@@@%%%%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="193.7">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">=@%%@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="224.9">&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="232.7">=++******####*+=*@%%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="318.5">&#160;&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="334.1">#@@%%@@@@@@@@@@@@%%%%@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="510" style="animation-delay: 2.62s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%@@%%%%%%%%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="189.8">&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">+@%%%%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="232.7">&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="240.5">======++*+==-%%%@%@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="318.5">&#160;&#160;...&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="345.8">-#@@%%@@@@@@@@@%%%@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="518" style="animation-delay: 2.66s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%%%%%@%%%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="185.9">&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">+@%@@%%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="236.6">:&#160;....:::..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="283.4">#@%@@@@@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="318.5">.&#160;&#160;...&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="361.4">-#@@%%@@@%%%%%@@@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="526" style="animation-delay: 2.70s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%%@@@%%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="174.2">:&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">=%%@@@@@%%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="248.3">:&#160;&#160;&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="271.7">*@%@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="322.4">&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="384.8">-*%%%%%%%%@@@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="534" style="animation-delay: 2.74s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%@@%%@%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="166.4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="201.5">-%%@@@@@@@@%%%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="260.0">&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="263.9">-%@%@@@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="322.4">.&#160;&#160;.&#160;.&#160;&#160;&#160;&#160;&#160;&#160;.......::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="404.3">=*##%@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="542" style="animation-delay: 2.78s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%%%%@%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="154.7">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">%%@@@@@@%@%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="252.2">:&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="275.6">+@%@@@@@@@@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="322.4">:&#160;....&#160;&#160;&#160;&#160;&#160;.&#160;........::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">#@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="550" style="animation-delay: 2.82s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%%%%@%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="143.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">#%%@@@%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="240.5">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="283.4">+@%@@@@@%#-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;..........</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="558" style="animation-delay: 2.86s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@%%%%%@#-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="131.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">#@%@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="236.6">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;.&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="291.2">#@%@@@%#=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;...&#160;....</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="566" style="animation-delay: 2.90s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="107.9">&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">+@%%@*+###*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="248.3">&#160;&#160;&#160;&#160;&#160;&#160;..&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="283.4">=***#@@@%%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">&#160;&#160;&#160;&#160;&#160;&#160;...&#160;&#160;&#160;&#160;.&#160;&#160;.&#160;.....&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="574" style="animation-delay: 2.94s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="205.4">-%@%#***#%%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="252.2">&#160;&#160;&#160;&#160;&#160;.&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="283.4">%%##%%%%%%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;....&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="582" style="animation-delay: 2.98s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="209.3">##%%%#####%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="256.1">&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="279.5">#@%%@@%@%%%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;..&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="590" style="animation-delay: 3.02s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="209.3">%%%@@%##%%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="256.1">:&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="279.5">@%@@@@@@@%%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;.&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="598" style="animation-delay: 3.06s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@@@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="209.3">#%%@@%%#%%#%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="260.0">&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="279.5">%@%@@@@@@%%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="606" style="animation-delay: 3.10s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="209.3">=@%@@@%%%@@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="256.1">&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="279.5">#%%@@@@@@%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.3">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="614" style="animation-delay: 3.14s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="213.2">@%%@@%%%%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="256.1">&#160;&#160;&#160;.&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="283.4">#@%@@@@@%%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="330.2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="622" style="animation-delay: 3.18s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="213.2">%%%@@@%%%%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="252.2">.&#160;&#160;&#160;&#160;&#160;.&#160;-</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="287.3">@%@@@@@@%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="330.2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="630" style="animation-delay: 3.22s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="213.2">*@%@@@%%%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="252.2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="287.3">*@%@@@@@%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="330.2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+    <text class="ascii-line" y="638" style="animation-delay: 3.26s;">
+      <tspan class="ascii-char" fill="#22D3EE" x="65.0">@@@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="104.0">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="213.2">=@%@@@%%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="252.2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="291.2">%@%@@@@%%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="330.2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.9">*@%@@@@@@</tspan>
+    </text>
+  </g>
+
+  <line x1="20" y1="661" x2="500" y2="661" stroke="#273449" stroke-width="0.5"/>
+  <text class="prompt" x="20" y="681">shahnoor@github:~$</text>
+  <rect class="cursor" x="166" y="671" width="7" height="13" rx="1" style="animation-delay: 3.50s;"/>
+</svg>

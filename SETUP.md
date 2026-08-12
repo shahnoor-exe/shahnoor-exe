@@ -78,16 +78,18 @@ The ASCII portrait is generated directly from your real profile photo.
 
 *Note: The script requires the `Pillow` library (`pip install Pillow`). Ensure old avatar files (like avatar.svg, cartoon.svg) are removed if they still exist.*
 
-### 2. Updating the Top Languages Card (New)
+### 2. Updating GitHub Analytics (New)
 
-The Top Languages card is self-hosted and generated from your public GitHub repository data.
+The GitHub Stats, Streak, and Top Languages cards are self-hosted and generated from your real public GitHub data.
 
-- **Automated**: The GitHub Action `.github/workflows/update-top-languages.yml` runs daily to update the card.
+- **Automated**: The GitHub Action `.github/workflows/update-github-analytics.yml` runs daily to update all analytics SVGs.
 - **Manual**: Run the script locally to force an update:
   ```bash
-  # Optionally set GITHUB_TOKEN to avoid rate limits
-  python scripts/generate_top_languages.py
+  # You must set GITHUB_TOKEN for GraphQL stats/streak queries!
+  export GITHUB_TOKEN="your_personal_access_token"
+  python scripts/generate_github_analytics.py
   ```
+- **Debugging**: If a number looks wrong, check the GitHub Actions run logs under the "Actions" tab in your repo to see exactly what the API returned.
 
 ### 3. Updating the LeetCode Streak
 
@@ -95,11 +97,27 @@ The LeetCode streak is calculated automatically by analyzing commit history in y
 
 ```bash
 # Optional: set token for higher rate limits
-export GITHUB_TOKEN="your_token_here"
-
-# Run the script
+export GITHUB_TOKEN="your_token"
 python scripts/update_leetcode_streak.py
 ```
+
+---
+
+## Important Maintenance Notes
+
+### Portrait Cache Busting
+GitHub aggressively caches images. When you update your portrait, you **MUST** update the version number in `README.md` to force GitHub to fetch the new image.
+Change:
+```html
+<img src="./assets/portrait-ascii.svg?v=1" ... />
+```
+to `?v=2`, `?v=3`, etc.
+
+### Manual Live Verification Checklist
+When you push changes to GitHub, do not just trust the IDE preview:
+1. Hard-refresh your live profile (`Ctrl+F5` or `Cmd+Shift+R`).
+2. Open the raw SVG URL directly in a new tab (e.g., `https://raw.githubusercontent.com/shahnoor-exe/shahnoor-exe/main/assets/portrait-ascii.svg`) to confirm the file actually updated on the server.
+3. If the animated portrait still fails to load on GitHub due to their proxy sanitizer, manually change the `README.md` to embed `portrait-ascii-static.svg` instead.
 
 The script will:
 1. Fetch all commits from `shahnoor-exe/LeetCode-2026`

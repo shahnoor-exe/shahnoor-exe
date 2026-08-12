@@ -1,13 +1,13 @@
-name: Update Top Languages
+name: Update GitHub Analytics
 
 on:
   push:
     branches: [main]
     paths:
-      - 'scripts/generate_top_languages.py'
-      - '.github/workflows/update-top-languages.yml'
+      - 'scripts/generate_github_analytics.py'
+      - '.github/workflows/update-github-analytics.yml'
   workflow_dispatch:
-  # Daily at 00:00 UTC
+  # Daily at 00:00 UTC (05:30 IST)
   schedule:
     - cron: '0 0 * * *'
 
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 jobs:
-  update-languages:
+  update-analytics:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -30,21 +30,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Generate Top Languages SVG
+      - name: Generate Analytics SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_top_languages.py
+        run: python scripts/generate_github_analytics.py
 
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet assets/top-languages.svg && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git add assets/github-stats.svg assets/github-streak.svg assets/top-languages.svg
+          git diff --cached --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/top-languages.svg
-          git commit -m "chore: update Top Languages card [skip ci]"
+          git commit -m "chore: update GitHub analytics SVGs [skip ci]"
           git push
