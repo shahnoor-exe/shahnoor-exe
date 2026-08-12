@@ -20,8 +20,30 @@
   <circle class="dot-r" cx="20" cy="19" r="6"/>
   <circle class="dot-y" cx="38" cy="19" r="6"/>
   <circle class="dot-g" cx="56" cy="19" r="6"/>
-  <text class="title" x="210.0" y="23">github-streak</text>
+  <text class="title" x="210.0" y="23">shahnoor-exe's Contribution Streak</text>
   <g transform="translate(0, 40)">
-    <text class="metric-label" x="210" y="60" fill="#FFBD2E">Streak analytics temporarily unavailable</text>
+
+    <!-- Total -->
+    <text class="metric-value" x="70" y="55">362</text>
+    <text class="metric-label" x="70" y="80">Total Days</text>
+    
+    <line class="divider" x1="140" y1="20" x2="140" y2="90"/>
+    
+    <!-- Current Streak Ring -->
+    <circle cx="210" cy="45" r="30" fill="none" stroke="#273449" stroke-width="4"/>
+    <circle cx="210" cy="45" r="30" fill="none" stroke="#8B5CF6" stroke-width="4" stroke-dasharray="140" stroke-dashoffset="40"/>
+    
+    <!-- Flame Icon -->
+    <path d="M210 15C210 15 207 19 207 22C207 23.5 208.5 25 210 25C211.5 25 213 23.5 213 22C213 19 210 15 210 15Z" fill="#F59E0B"/>
+    
+    <text class="metric-value" x="210" y="55">10</text>
+    <text class="metric-label" x="210" y="100" fill="#22D3EE">Current Streak</text>
+    
+    <line class="divider" x1="280" y1="20" x2="280" y2="90"/>
+    
+    <!-- Longest -->
+    <text class="metric-value" x="350" y="55" fill="#94A3B8">20</text>
+    <text class="metric-label" x="350" y="80">Longest Streak</text>
+
   </g>
 </svg>
