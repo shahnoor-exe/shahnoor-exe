@@ -28,7 +28,10 @@
 <table>
 <tr>
 <td width="42%" align="center">
-  <img src="./assets/portrait-ascii.svg" width="400" alt="Terminal-style ASCII portrait of Shahnoor Ahmed Laskar" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg" />
+    <img src="./assets/portrait-ascii.svg" width="520" alt="Animated terminal-style ASCII portrait generated from Shahnoor Ahmed Laskar's real profile image" />
+  </picture>
 </td>
 <td width="58%" align="center">
   <img src="./assets/neofetch-profile.svg" width="500" alt="Neofetch-style profile card showing Shahnoor's details" />
@@ -47,6 +50,9 @@
 <table>
 <tr>
 <td width="58%">
+<div align="center">
+  <img src="./assets/profile-photo.jpg" width="180" style="border-radius: 12px; margin-bottom: 10px;" alt="Professional profile photo of Shahnoor Ahmed Laskar" />
+</div>
 
 ```javascript
 const shahnoor = {
@@ -100,7 +106,9 @@ $ cat interests.txt
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahnoor-exe&layout=donut-vertical&theme=github_dark&hide_border=true&title_color=22d3ee&text_color=94A3B8&bg_color=0D1117" alt="Top Languages" width="100%" />
+<a href="https://github.com/shahnoor-exe">
+  <img src="./assets/top-languages.svg" width="420" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
+</a>
 
 </td>
 </tr>

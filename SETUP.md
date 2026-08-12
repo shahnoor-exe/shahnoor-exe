@@ -54,6 +54,44 @@ Then replace the ASCII text blocks inside `portrait-ascii.svg` (and the static v
 ## 2. LeetCode Streak Script
 
 ### Running locally
+        ├── update-leetcode-streak.yml     Daily LeetCode streak update
+        └── update-top-languages.yml       Daily language stats update
+```
+
+---
+
+## Usage
+
+### 1. Generating the Portrait (New)
+
+The ASCII portrait is generated directly from your real profile photo.
+
+1. Save your professional profile photo as `assets/source-profile-photo.jpg`.
+2. Run the generator script:
+   ```bash
+   python scripts/generate_portrait.py
+   ```
+3. This will create:
+   - `assets/profile-photo.jpg` (A centered square crop of your real photo)
+   - `assets/portrait-ascii.svg` (The animated terminal-style coded portrait)
+   - `assets/portrait-ascii-static.svg` (The static fallback version)
+
+*Note: The script requires the `Pillow` library (`pip install Pillow`). Ensure old avatar files (like avatar.svg, cartoon.svg) are removed if they still exist.*
+
+### 2. Updating the Top Languages Card (New)
+
+The Top Languages card is self-hosted and generated from your public GitHub repository data.
+
+- **Automated**: The GitHub Action `.github/workflows/update-top-languages.yml` runs daily to update the card.
+- **Manual**: Run the script locally to force an update:
+  ```bash
+  # Optionally set GITHUB_TOKEN to avoid rate limits
+  python scripts/generate_top_languages.py
+  ```
+
+### 3. Updating the LeetCode Streak
+
+The LeetCode streak is calculated automatically by analyzing commit history in your `LeetCode-2026` repository.
 
 ```bash
 # Optional: set token for higher rate limits

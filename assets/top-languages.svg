@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
+  <defs>
+    <style>
+      .bg { fill: #0D1117; }
+      .frame { fill: none; stroke: #273449; stroke-width: 1.5; rx: 12; }
+      .titlebar { fill: #161B22; }
+      .dot-r { fill: #FF5F56; }
+      .dot-y { fill: #FFBD2E; }
+      .dot-g { fill: #27C93F; }
+      .title { fill: #8B949E; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+      .prompt { fill: #22D3EE; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: bold; }
+      .cmd { fill: #E5E7EB; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+      .lang-name { fill: #E5E7EB; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: bold; }
+      .lang-pct { fill: #94A3B8; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+      .bar-bg { fill: #161B22; rx: 4; }
+      .divider { stroke: #273449; stroke-width: 0.5; }
+      .info-text { fill: #8B949E; font-family: 'JetBrains Mono', monospace; font-size: 9px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="420" height="320" rx="12"/>
+  <rect class="frame" x="0.75" y="0.75" width="418.5" height="318.5" rx="12"/>
+
+  <!-- Title Bar -->
+  <rect class="titlebar" x="1" y="1" width="418" height="36" rx="12"/>
+  <rect class="titlebar" x="1" y="25" width="418" height="12"/>
+  <circle class="dot-r" cx="20" cy="19" r="6"/>
+  <circle class="dot-y" cx="38" cy="19" r="6"/>
+  <circle class="dot-g" cx="56" cy="19" r="6"/>
+  <text class="title" x="210.0" y="23" text-anchor="middle">Top Languages by Repository Usage</text>
+
+  <!-- Command prompt -->
+  <text class="prompt" x="20" y="60">$</text>
+  <text class="cmd" x="32" y="60">analyze_repos --user=shahnoor-exe</text>
+  
+  <line class="divider" x1="20" y1="72" x2="400" y2="72"/>
+
+  <g transform="translate(20, 80)">
+    <circle cx="6" cy="10" r="4" fill="#3178C6"/>
+    <text class="lang-name" x="18" y="14">TypeScript</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="44.01495538530789" height="8" fill="#3178C6" rx="4"/>
+    <text class="lang-pct" x="340" y="14">24.5%</text>
+  </g>
+  <g transform="translate(20, 105)">
+    <circle cx="6" cy="10" r="4" fill="#00B4AB"/>
+    <text class="lang-name" x="18" y="14">Dart</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="41.780453297084364" height="8" fill="#00B4AB" rx="4"/>
+    <text class="lang-pct" x="340" y="14">23.2%</text>
+  </g>
+  <g transform="translate(20, 130)">
+    <circle cx="6" cy="10" r="4" fill="#F1E05A"/>
+    <text class="lang-name" x="18" y="14">JavaScript</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="37.598010482729975" height="8" fill="#F1E05A" rx="4"/>
+    <text class="lang-pct" x="340" y="14">20.9%</text>
+  </g>
+  <g transform="translate(20, 155)">
+    <circle cx="6" cy="10" r="4" fill="#3572A5"/>
+    <text class="lang-name" x="18" y="14">Python</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="33.3972850856901" height="8" fill="#3572A5" rx="4"/>
+    <text class="lang-pct" x="340" y="14">18.6%</text>
+  </g>
+  <g transform="translate(20, 180)">
+    <circle cx="6" cy="10" r="4" fill="#E34C26"/>
+    <text class="lang-name" x="18" y="14">HTML</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="7.666764806162564" height="8" fill="#E34C26" rx="4"/>
+    <text class="lang-pct" x="340" y="14">4.3%</text>
+  </g>
+  <g transform="translate(20, 205)">
+    <circle cx="6" cy="10" r="4" fill="#B07219"/>
+    <text class="lang-name" x="18" y="14">Java</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="7.376981843596666" height="8" fill="#B07219" rx="4"/>
+    <text class="lang-pct" x="340" y="14">4.1%</text>
+  </g>
+  <g transform="translate(20, 230)">
+    <circle cx="6" cy="10" r="4" fill="#563D7C"/>
+    <text class="lang-name" x="18" y="14">CSS</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="5.704407417914068" height="8" fill="#563D7C" rx="4"/>
+    <text class="lang-pct" x="340" y="14">3.2%</text>
+  </g>
+  <g transform="translate(20, 255)">
+    <circle cx="6" cy="10" r="4" fill="#A855F7"/>
+    <text class="lang-name" x="18" y="14">PowerShell</text>
+    <rect class="bar-bg" x="150" y="5" width="180" height="8"/>
+    <rect x="150" y="5" width="2" height="8" fill="#A855F7" rx="4"/>
+    <text class="lang-pct" x="340" y="14">0.6%</text>
+  </g>
+  <!-- Footer -->
+  <line class="divider" x1="20" y1="290" x2="400" y2="290"/>
+  <text class="info-text" x="210.0" y="308">Data reflects bytes of code in public repositories.</text>
+</svg>
