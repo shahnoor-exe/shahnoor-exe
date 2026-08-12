@@ -1,0 +1,66 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# LeetCode Practice Streak — Daily Update
+# ──────────────────────────────────────────────────────────────────────────────
+# Runs daily to update assets/leetcode-streak.svg with real commit data from
+# shahnoor-exe/LeetCode-2026.
+#
+# Schedule: 0 20 * * * (UTC) = ~1:30 AM IST the next day
+# GitHub Actions cron uses UTC. 20:00 UTC = 01:30 IST (next day).
+# This ensures the streak card is updated after a full day of IST activity.
+# ──────────────────────────────────────────────────────────────────────────────
+
+name: Update LeetCode Streak
+
+on:
+  # Run when the script, workflow, or assets change
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_leetcode_streak.py'
+      - '.github/workflows/update-leetcode-streak.yml'
+
+  # Manual trigger
+  workflow_dispatch:
+
+  # Daily at 20:00 UTC (~01:30 AM IST next day)
+  schedule:
+    - cron: '0 20 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # No extra dependencies needed — script uses only stdlib
+      - name: Generate LeetCode streak SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_leetcode_streak.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet assets/leetcode-streak.svg && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/leetcode-streak.svg
+          git commit -m "chore: update LeetCode practice streak [skip ci]"
+          git push
