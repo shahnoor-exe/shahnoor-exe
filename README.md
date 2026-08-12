@@ -98,6 +98,10 @@ $ uptime
 > B.E. CSE (Honors) — Class of 2028
 > Chandigarh University | CGPA 8.04
 
+$ java -version
+> Core: Advanced Java Completed
+> DSA: Graphs & Non-Linear Data Structures
+
 $ cat interests.txt
 > AI-driven applications
 > Open-source development
