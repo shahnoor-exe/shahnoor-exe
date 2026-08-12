@@ -87,6 +87,9 @@ const shahnoor = {
 };
 ```
 
+</td>
+<td width="45%" valign="top">
+
 ```bash
 $ status --current
 > Advanced AI Systems & Data Science
@@ -102,14 +105,13 @@ $ cat interests.txt
 > Production-grade intelligent systems
 ```
 
-</td>
-<td width="45%" align="center" valign="top">
-
 <br/>
 
-<a href="https://github.com/shahnoor-exe">
-  <img src="./assets/top-languages.svg?v=6" width="100%" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
-</a>
+<div align="center">
+  <a href="https://github.com/shahnoor-exe">
+    <img src="./assets/top-languages.svg?v=6" width="100%" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
+  </a>
+</div>
 
 </td>
 </tr>
