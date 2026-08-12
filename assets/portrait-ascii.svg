@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 928.9999999999999" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 975.1176470588235" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
   <title>Terminal ASCII Portrait</title>
   <defs><style>
 
@@ -12,7 +12,7 @@
       .prompt { fill: #22D3EE; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 14px; font-weight: bold; }
       .cmd { fill: #E5E7EB; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 14px; }
       .cursor { fill: #22D3EE; }
-      .ascii-char { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 6.76px; font-weight: 600; letter-spacing: 0px; }
+      .ascii-char { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 10.54px; font-weight: 600; }
 
       .ascii-line { opacity: 0; animation: reveal 0.1s ease-out forwards; }
       @keyframes reveal { from { opacity: 0; transform: translateY(-2px); } to { opacity: 1; transform: translateY(0); } }
@@ -22,8 +22,8 @@
 
   </style></defs>
   
-  <rect class="bg" width="700" height="928.9999999999999" rx="12"/>
-  <rect class="frame" x="0.75" y="0.75" width="698.5" height="927.4999999999999" rx="12"/>
+  <rect class="bg" width="700" height="975.1176470588235" rx="12"/>
+  <rect class="frame" x="0.75" y="0.75" width="698.5" height="973.6176470588235" rx="12"/>
   
   <rect class="titlebar" x="1" y="1" width="698" height="36" rx="12"/>
   <rect class="titlebar" x="1" y="25" width="698" height="12"/>
@@ -36,480 +36,411 @@
   <text class="cmd" x="180" y="60">./render-portrait.sh</text>
   <g>
     <text class="ascii-line" y="90.00" style="animation-delay: 0.50s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="97.79" style="animation-delay: 0.54s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="105.58" style="animation-delay: 0.58s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="113.37" style="animation-delay: 0.62s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="121.16" style="animation-delay: 0.66s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...........................................................&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="128.95" style="animation-delay: 0.70s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="136.74" style="animation-delay: 0.74s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="104.0">l!!i&amp;gt;&amp;lt;~+_--?]][}}{{111))(|||\//ttffjjrrxxnnuvccczXXXXXXXXXXXXXXXzzzzXXXccczcczcccvvvuunnxxrrjfftt/\\|(()11{}[]--_~~&amp;lt;&amp;gt;i!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="596.0">;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="144.53" style="animation-delay: 0.78s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">&amp;lt;-?][{1)|\tfjrxnuvczXYYUJJCLLQ0OZmwqpdbkhaao*#MW&amp;&amp;888&amp;&amp;&amp;&amp;8&amp;8888%%%%%%%%88&amp;&amp;&amp;&amp;WWM##**oahhkbddpqwmZO0QLCJYYXcvunrft\()1}[]]~</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="152.32" style="animation-delay: 0.82s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">~-?][{1(|\/ffrxnuvczXYUJCLLQ00OZmwqqddbkkhaao*##MMMM###MMWW&amp;&amp;M#akdqO000QQ00mpko****ahhhkkbdpqqwmZO0QLCJUYXzvvnjft\()1{[]]+</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="160.11" style="animation-delay: 0.86s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">+]]}1)(\/tfjrnuvzXYUJCLQ0OZmwwqpdbkkhaoo*##MMMMWWWWMW&amp;&amp;&amp;MadZLYcunxxnuuuuuuunuvXJQZwdka**ahhkbdpqwmZO0QLCJUYXcvxjf/|()1{}}_</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="167.90" style="animation-delay: 0.90s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">-[}1)(\/tfrxuvczYYJCLQ0OZmwqpddbkhaa***#M#MMMMMMMMM&amp;WkmJXvxrrrxnuvccccvvvvvvvvunxrrxcLmdo*ahhkbdpqwmZO0QLCUYXznrft\|()1{{-</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="175.69" style="animation-delay: 0.94s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">?{1)|\tfjrnuvcXYUJCLQ0Ommwqpdbkhaa****##MMWWW&amp;&amp;&amp;&amp;&amp;8aYnxxxxnnnuvvccvvvvvvvunnxuvvvvvunuJZZq**ahkkbdpqmmO0QLCJYcxrjf/\|()11?</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="183.48" style="animation-delay: 0.98s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">]))|\tfjxnuvcXYUJLQ0OZmwqpdbkhaa**###MMWWWM#hdqwZQLnrnnnnnnnnvvvvvvvvunxnnnunxnuvvvvvuxcmmQb#oahkbdpqwmZO0LCJznxrjt/\|())]</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="191.27" style="animation-delay: 1.02s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">[(|\/fjxnuvzXYUCLQ0OZmwqpdkkhao*o##MMWWMobw0UzvnxrfrxxxxxnxnuvvvcvvvnnnvczzccxrxuvccununxQqUOM*aahkbdpqmZO0QLYvnxrft/\\||[</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="199.06" style="animation-delay: 1.06s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">{\\tfjxnuvzXYJCLQ0Omwqpddbkhaao****MW#dOYzvuuunxxxxxxrrxxxxuuvuvuuvuuuuvvcvuxrrrxuvvvnnuvxYqXL##oahkbdpqwmO0QJzvnxrft/\\\}</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="206.85" style="animation-delay: 1.10s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">1//fjrnuvzXYJCLQ0Omwqppdbbkhhaao**okZXnnnnnnnxxxxxxxrrrxxnununuxrxxxuvnxxrjjjrrjrxnvvvuuvvuJmYQ#*ohkbddpwmZO0JXvunxjfft//{</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="214.64" style="animation-delay: 1.14s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">)ttjrnuvcXYJCLQ0Zmwqpddddbkhha*##pYvxnuuunnnnnnnnnxxxrrrnnxnnnxjrrxnxjfffjfffffjjrxnnvunuvvcQCJZWoahbdddpwmZ0UYzvvnrjfftt1</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="222.43" style="animation-delay: 1.18s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">(ffrxuvcXYUCLQ0ZmwqppdbdbkhaoadOJcnnuuunnnnnnxxrjfftffrxrjrrrrffrrjt///ttffjfjfffrrxrnuxnnnvXY0Yk*ahhkdbdpww0JUXzcvxrjjff)</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="230.22" style="animation-delay: 1.22s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">|jrxnvcXYUCLQ0Omwqpddbbbkha*dYuxxnnnxxxrrjjjjfft//tffffttftff/tfftt\\//tffjxrrfffrfrrxnxxxxuvvLC0#aaahkkkdpqOLJYXzvnxxrjj(</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="238.01" style="animation-delay: 1.26s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">\xnuvczYUJLQ0Omwqppdbkkkaa*pvvuunnxxxrfttftttttttttt//ttf\\//\//\////tfrrjxxxjffrjjrrrxrrrxuvvXLL*W*oahhhbdpOQLUYXzunnxrr|</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="245.80" style="animation-delay: 1.30s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">/nuvzXXYJCQ0OmwqppdbkkhhaabvXUnrrrrrfffftt///////\\\\//\\|\\\\\///ttfjxxxxxrjjjrrjjjfjrjfrxnuvzLQaM#*aaaakbdZ0QCUYXvvunxx\</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="253.59" style="animation-delay: 1.34s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">tuvcXYYJCL0OZmqqpdbkhkbkkkLzLvjfjftt/\\tt//\\\\|||\\\\\\tt\/tfffffjrxxnnvnnxrrrjffttfjffjrxnuvXJwh*o*#**ohkbmO0LJJUzcvunn/</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="261.38" style="animation-delay: 1.38s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">tvvzYUUCLQ0Zmwqpdbbkhha*bdCYujjrjt\\\||||||||||||||\/frnuuuuvvvvvuvvvvvczXXXccvuxjfttffjjrxnvXCZdh**o##**ahkqZZQCCJXzcvuvt</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="269.17" style="animation-delay: 1.42s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fvcXYJJCQ0OZmwqddbhaaakwQJuffjrf////\||((()(((|(|\truvczXYYYYUUJJJJJJJCCLLLQLCJYXcuxjffffjxcYJ0dbko##*#*o*ahqmm0LLCYXccvvt</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="276.96" style="animation-delay: 1.46s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fczYJJCL0OZmwqpbbqpdpmJcnjtttt/\|\\\|||((()((|\tfnvczXXYUJJJCCCCLLLQQQQQ000000QQCJYXcnrrxucUL0mwmpao#M**oaahqmm0QQLYXzcvcf</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="284.75" style="animation-delay: 1.50s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">jzXYJJLQOZmmwpdkkbdkbwJurf/\\||||(()()))(|/tfrxuvcXXYUUJJJCCCCLLLLQQQQ000OOOZZOO00LCUYvuvvcYLQ0Zdka*M#**oahhpmm0QQQUYXzccf</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="292.54" style="animation-delay: 1.54s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">rzYUUCL0OmmwqdbkkkaabJnrt\\\\\\||((()))/jxnuvcczXYUJJJCCCCLLLLLLQQQ0000OOZZmmwwwmmZOQLJzvuunuvzLdhh*M##**ohhdwwO000CYYXzXj</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="300.33" style="animation-delay: 1.58s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">rXXYJL00Zmmqpdkhp0LUcxrfftt//\\||||))\ruvcczXYYYUJJCCCLLLLLQQQQQQQ000OOZmmmwqqqqqqqwmZOQXuuuuuuuY0d*#####*aakqqZO00LUUYXXr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="308.12" style="animation-delay: 1.62s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">xXXUCQ0OmmwqdbkkbwOLxffxxf/\\|||||((fuccXXYYUUUJJCCCLLLLLQQQQQQQQ00OOOZZmmmwpppddddppqww0XuxnuvunxcbM#M##*oahpqmZOZ0CJUYYr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="315.91" style="animation-delay: 1.66s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">xYYCLQ0OZwqpdkkkkkkpnfttjf\\||((((|rczXYYUUJJJJCCCLLLLLLLQQQQQ00Q000OOZZmmwwqppddddddpqqmLznfxnvccnUo*###**oadpwZZZ0CJUYYr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="323.70" style="animation-delay: 1.70s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">nYUJCLQOZwqdbkkhkaokvxrf/t\|(())(|jcXYYUJJJJCCCCCCCCLLLLLLQQQQ00Q0000OOOZmmwwqpppdddddpqwOJcrrnncYXCao**##*oobpwmmmZLCJUUx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="331.49" style="animation-delay: 1.74s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">nYYUJLQOmwqpdkkkhaahUvrf/\\|()))(jcXYYUJJCCJCCJCCCCCCLLLLLQQQQQ0000000OOOZmmwwqqpppddddpqmQXuxxxXCJZ*oo*#M#oabdqmmmZQCCUUx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="339.28" style="animation-delay: 1.78s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">nYYUCLQOmwqpdbkhhaakmXj\||((())(fzYYUJJJCCCCCCCCCLLLLLLLQQQ000Q00Q000OOOZmmwwqqqppppdddpqqOUvnnncXYbo***#M#*abdqmmmZ0CCJUx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="347.07" style="animation-delay: 1.82s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">nYYJCL0Omwqddbkhaaaaqv/()))(|()tzYYUJJJCCCCCCCCLLLLQQQ00000O00000Q00OOZmwwwqqqpppddddpppppwCcuuucvCpho*##WM*okdqwwwmOLCUYx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="354.86" style="animation-delay: 1.86s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">xYYJCQ0Omwqpdbhhaaa*Zx\||)|\|((nYUUJJJCCJJJJCCCLLLQQQQ0000OOOO0000000OZmmwqqqqqqwqqqddpqqppQcunuuuOkaao**#M#*hdqwwwmm0CUYr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="362.65" style="animation-delay: 1.90s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">nYYJCLQ0OmqpdkkhaahQnf\XJu\t|)|cUJJJJJUXcvcccczXXYJJCLLQQQ00OO0000000000000QLLLLCCCCQZqqwqp0cuvzvYboaaaoo****hdqwwwmZ0LCUr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="370.44" style="animation-delay: 1.94s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">xzXYJCL0Omwpdkhhaahw0zCpCmx/\(\XJJJUYcvvvvunrjffjxnvcXUCCLLQQ000QQQQQLJYXcvvvvczXYYJJJC0wqp0vvvYOwpkoaaaao*aakpqmmmZOQLCUx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="378.23" style="animation-delay: 1.98s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fvvzXYJCQZmqdkkhaahahbbhZqL//(\XJJUzccczzXXzcvnxffjxuvcYYJCLLLLQQLCCJYzvnnnnuvcXYUJCCCJULwd0uvnLkbaoaaaaaaoohkpwmmmO0QLCJn</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="386.02" style="animation-delay: 2.02s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fuvcXYUJCQZqddkhhhhhhhhhbmdn\|\XCJYXXYYYYYYUUUYXzvuuvcczXYUJCCCLLCCJUYXzzzzXYJCLLQ00000QLZd0nv0haa*aaaaaaa*oahpqmmZOO0LCJx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="393.81" style="animation-delay: 2.06s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fuvcXYUJCQ0mqdbhhhhhhhhhkdwut\\cCJJUUYYYYYYXXXYXzccvvvvczXYYUJCCLLCJUYXzcvczXYYYUJCQ0OZmZmdQxU%8M**oaaaaaaooaadwwmZO0QCJUn</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="401.60" style="animation-delay: 2.10s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fvvcXYUJCQ0OmqdkkkkkkkhkkhQvj/\cLCJYYXzcvvvvvcvvvvnnnnnuvcXYYJCLQQLUXcvunuczYUCCCJUXUCQOZmp0xL8&amp;#**oaaaooo*oahpwwmZO0QCJJu</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="409.39" style="animation-delay: 2.14s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">jvvcXYUJCLQ0OmwpddbkkkkkkkXvcj\cLJYXccvnnxxnj\/fttrrxxnnnvcXUJL0Z0CXvunnnnf\fjfuXXYUYYJL0mq0nQ&amp;W##*ooo*****oakqwmmZ00QCJUx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="417.18" style="animation-delay: 2.18s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fuvczXYUJLQ00OmwqqpddkkkkhCnXu\zLJYXcvuxftnYu((|(fznjruvuvcXUCQZw0CJXvxxvYj))|\COcncYJCQ0mqOvOWM#*oooa*****oakqwmZZ0QLCULv</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="424.97" style="animation-delay: 2.22s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fnuvcXYUJCQ00OmwwwmmwdkkkhwvYzfYLJJYYXzzzzcccunnnvcvunvcvczYUCQZwOQLUcvcczzvuuXLCLQ0QQ0OZmw0vmWM*oaaaao****ohkqwmZO0QLJJQv</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="432.76" style="animation-delay: 2.26s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">fnuvcXYUJCQQ0OmwwwmmmwqqpbkYXXxUCJJJUYYXzzzzczzzcvvuvccczzXYJCQZqwO0LJXcvvczXYUJCLQQ0OOmmmm0zhW#*aaaaao*##*ahkwmmOOQQLUUCu</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="440.55" style="animation-delay: 2.30s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">tnnvczYYJCLQ0OZmmmmmmmmmwqb0zYvJJJJJJJJUYXzcccvvvvczXXXXXXYUJL0ZqqwmO0QLJYXXYYUJCLL00ZmmmmmCQW**oaaaaao****ohbwmZO0LCCUXJn</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="448.34" style="animation-delay: 2.34s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">tnnuvcXYUJCL00OZmmmZZmmmqpdqXYcJJJJJJCCLLLCJJUYYYYYYYYXXYYYUJL0mqqqwmZOOO0QQQQQQ00OOZwwwmZOJdMoaaaaaaaaa**oaadwmZO0LCJYXJn</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="456.13" style="animation-delay: 2.38s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">txnuvczXYJCLQ00OZZZZZmmmwpdkLccJJUJJJCCLQQQQQLCJJJUUYYYYYYUJCL0mqppqwmOO00OOZZmmmmwwqpqwmOQLa*aaaaaaaaaaooohkdmZO0QCJUXzYx</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="463.92" style="animation-delay: 2.42s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">txxnvvzXYUJCLQ0OOZZZZZmmmwqhwcvUUUUJJCCLQQ00QQLCCJUUYYYYYUJCLL0Zqdbpqw0LLQ0OZwwwppddpqwmO0LQaaaaaaaaaaaaaaakbdmO0QLCUYXcXr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="471.71" style="animation-delay: 2.46s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">/rrnuvczYYJJCQQ0OOOOOZmmmwqbQzvYUUUJJJCLLLQQLLCCJUUYXYUJUJJCLQ0ZqkakppqQUJLQOmwqpdbddqmO0QCLhaahaaaaaaaaaaakbdZO0QLJUYXczj</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="479.50" style="animation-delay: 2.50s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">\rrxnuvcXYUJCLQQ0OOOOOZmmwqdOczYUYYUUUJCCCLLCCJJUYXzcYJJJJUUJCQ0mqpdpdpOYYUJL0OmqpppqmOQQLJQaahhhaaaaaaaaakbdpZ0QLCUYXzvcf</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="487.29" style="animation-delay: 2.54s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">\jrxnuvczXYUJCLLQ00OOOZmmmqpdLvXYYYYYYUJJJJJJUUYXzzzccXXcuucXYUJLQCYXUCQJYXYJCL0OZZZO0QLLCJkahhhhaaaaaaaahkbdqZOQLCUXzcvcj</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="495.08" style="animation-delay: 2.58s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">|fjrxnvvczXYUJJCLQ0OOOZZmmqpbhqUYYYXXYYYYYYYYYXzccXYYXcvnnxuvczXJCUYYC0OQJXXYJCLQQQQQLLCCUOakkhhhhaaaaaaakbdpwO00QCUYXcvzr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="502.87" style="animation-delay: 2.62s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">|ffrxnuvczXYYUJCLQQ0OOOZmwqpdko0XYXXXXXXXXXXzcvccXYYYYYXzzzzcccXJLQ00OZZ0QJXXYUJCCCCCCJJJJphkkhhhhhaaaaahkdpqmO0QLCYXXvvzf</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="510.66" style="animation-delay: 2.66s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">(tfjrxnuvczXYYUJCLQ0OOOZmwqppdkqYXXXXzzzzzcvxnuvcczXXXzzzccczzczUJCLLQ00OQLUXXYUUUJJJUUJUOhkkkkhhhhhhaahkbdpwO0QLCJYXcvuzr</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="518.45" style="animation-delay: 2.70s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">)ttfjrxnuvczXYYUJCLQ0OOmwwqqqpdkOzXXzzzzzccjjnuvvczXYYXXXXYUJUYYJLLLLQQ0QLCJYXYYUUUUUYUYCkkkkkkhhhhkkhkkbdpqZ0QLCJUXcvuncf</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="526.24" style="animation-delay: 2.74s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">)//tfjrxnuvczXYYJCLLQ0ZwwwqqqpdbkJcXzzzzzzcnnnrrxuvczzzzzzXYUJJJJJCCLQQ0QCYzcvzYUUUUYYYYqhkkkkkkkhhhhkbddpqw0QLCJUYzcvnxu/</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="534.03" style="animation-delay: 2.78s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">1\\tffjrxnuvczXYUJJCLOmwwwqqqpdbhkYcXzzzXXzcuvvvurfjrxxxnnnnnvvvvvvcccccccvvvvzYJUUYYYYwkkkkkkkkkkkhhbdppqwZQLCJJYXcvvnxu/</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="541.82" style="animation-delay: 2.82s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">{|\\tffrxnuvvczXYYUCL0Zwqqqqqpdkh#aYzXzzzzzcvcXXYYzvvvvccvvvvvccXYUJJJUJLLJYzzYUUUYYYUqhbkkkkkkkkkkhkdpqwwm0LLCJUYXcvuxxut</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="549.61" style="animation-delay: 2.86s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">}(|\/tfjrxnuvvczXYJCL0ZqpppqpdbkhaWbXzzzzcccvcXYYYYYXzzzXYUJJJJCCCCLLQ0ZO0QCXzXYYYYYCpkbbbkkkkkkkkkbdpqwmmZ0LCJUYXzvunrrn/</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="557.40" style="animation-delay: 2.90s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">})(|\/tfjrxnnuvcXYJCQ0Zqqpdddbbbkaa#dzccccccccXXYYYYYYXXzzzXXXYYUJCLQQ0QQQLCYXXYXYXLdkbbbbkkkkkkkkddpwmZOOOLCJUYXzcunxrjx\</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="565.19" style="animation-delay: 2.94s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">[))(|\tffjrxnuvzXYJCL0Zwwqpddddbbka*#pXvccccczXXXXXXXXXXzcccvcczYUJCCLLLLLLCJYYXXz0dddbdbbkkkkkkbbpqmZO00QLCJJYXXcvnxrfff(</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="572.98" style="animation-delay: 2.98s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">[11)|\/tffjrxuvcXYUCL0OmmwqpdddddbkhaopznvvvcczXXXXXXXXXzzccczzzXYUJJCCCCLLCJYYzuQpkbdddddbkkkkbddqmZO00QLCJUYXXzvuxrjf/t)</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="580.77" style="animation-delay: 3.02s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">]{1)(|\/ttfrxnvczYUCL00OmmmqpppppdddhwnCzrxnuvczXYYYYYYJJJJCCCCLLLLLLLLLLLCUYXuvqB0vpkbppdddbbddpqwZO0QQLCJUYXzccvnrjft/t)</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="588.56" style="animation-delay: 3.06s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">?}{1)(|\\tfjxnvczXUCLLQ0OOZmmmwwqppk0(1QZUujjxucXXYUUJJCCLLLLQQ00OO00QQQLJUYvnC#$$k|rJqbbdddppqqwmmZ0QLCCJUYXzcvvnxjtt\\\{</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="596.35" style="animation-delay: 3.10s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">-[}{1)(|\/tfrxuvcYUJCCLQQ000OZmmwwd0(1|0mmZLcrfrvzXYYYYUUUJJJCCLLQQQQQQCJYXuYk$$B$WftfxYOpbdpwmZZO00QQLCJUYXzcvunxjf/\|(|}</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="604.14" style="animation-delay: 3.14s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">-][}{1))|\/tjrxnczXXYUJCCLLQ00OOmqL\(1\0ZmmwwOUurrucXXXXXXXXXXYYUJJJJJUYcuXdB$@@@@@X|jrjruYL0OZmZO0QCCJJJYzcvvnxrjf/\|)1)[</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="611.93" style="animation-delay: 3.18s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">_?][}}{1)|\/tjrnuvvczXYUJJCLQQ0ZOv((({f0OmwwwwwmLXxrxuccccvvvcczzXXzcvuuzm&amp;$@B@@@B$q(ffrrjtttfjxvzYJCCJUYXcvunxrjft\|)1{1?</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="619.72" style="animation-delay: 3.22s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">+-?][[}11)|\/tfrxnuvczXYYUJCL0Qc\)|(){fQOmwqqwwwwm0Unjjrrxrrxnnnnnxrrc0k&amp;$$B@@@@@@$*t/ttfjftt\|())(|/jxuvccvunxrft\(11}}{-</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="627.51" style="animation-delay: 3.26s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">~_-?]][}{1)|\tfjrxnuvczXYJJYzn\{)())){/C0mwqqppqqwwmOLYnf///tfffffnJdMB$$BB@@@@@@@@Mx///ttt//\||(()11{}}{1)(\/ffft\)1{}[[_</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="635.30" style="animation-delay: 3.30s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">&amp;lt;+_-??][}{1)|/ffjrxnvccvnj|1}[{1)11111(YLOmqppddppqqwmmOQYvnxrrnUq#%@BBBB@@@@@@BB%%Mct\\\//\\||))1111{{}}[]??-??][[]]]]]]+</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="643.09" style="animation-delay: 3.34s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">&amp;gt;~~_--?][}{1(\tfjrxrf\)[???[}{{{{{{{{{1cCQZmqpddddddppdbpOCYcnvUQqo%$$@BB@@@BB%%8&amp;&amp;*cr|||\\\||())1{{{}}[[]]]?--_+~~~&amp;lt;&amp;lt;&amp;gt;&amp;gt;&amp;gt;!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="600.1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="650.88" style="animation-delay: 3.38s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">i&amp;gt;&amp;lt;~+_-?][})|\/\(1}]---?]][[[[}}}}}}{{}xUL0ZmqppdddbakQr1{]?{))))1(jUb%@BB%%88&amp;&amp;WMMavx|((||((())11{}[[[]]]??-__++~~&amp;lt;&amp;gt;&amp;gt;i!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="596.0">I&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="658.67" style="animation-delay: 3.42s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="99.9">!i&amp;gt;&amp;lt;~_-?]][[[?-+++___--??]]]][[[[[}}{{}tXJQOZmwwqpdwv_</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="321.3">:</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="325.4">l&amp;lt;~&amp;gt;i+{)(|\/\\\fUb&amp;&amp;&amp;WWMM#**kun\)))))))11{{}[[[]]??--__+~~&amp;lt;&amp;gt;&amp;gt;i!!l</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="591.9">l;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="666.46" style="animation-delay: 3.46s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;l</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="104.0">!i&amp;gt;&amp;lt;~~&amp;lt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;lt;~~+~~+__---??]]]]]][[[[[|cUL0OZmqpmU\</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="313.1">l'</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="321.3">?11)))11)((\tttf/)tYq*M#**oaadnx\{11111{{}}[[[]]?---__++~~&amp;lt;&amp;lt;&amp;gt;i!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="583.7">lII:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="674.25" style="animation-delay: 3.50s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;;IIIIIIl</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="132.7">!!ii&amp;gt;&amp;gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;~~++__---???]?]?]][[{nYCL0Om0XuucXvuj)[}{{1)(|\ttt|fcvnrvQdaahhkqux/}}}}{{}}}[[]]??--__++~~&amp;lt;&amp;lt;&amp;gt;ii!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="579.6">lII;,&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="682.04" style="animation-delay: 3.54s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"",::;IIl</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="136.8">l!!ii&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;lt;&amp;lt;~~++___--?--???]][[fYCLLCXxjxuvvzXXcf}}}{)1)||\|/zzXcvunvY0wddmnx/[[[[}[[]]]]??--__++~~&amp;lt;&amp;lt;&amp;gt;&amp;gt;i!!l</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="575.5">lI;;:"&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="689.83" style="animation-delay: 3.58s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;^"",::;;IIl</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="145.0">l!!!ii&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;lt;~~~++____----???]])nXcunvcvnxnuuccczx{[}{)((\|\JQ0OCYUCLJYXYJJxr/]]][[[]]??----_++~~~&amp;lt;&amp;gt;&amp;gt;ii!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="567.3">lII;::,^&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="697.62" style="animation-delay: 3.62s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`^^"",::;IIIl</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="153.2">!!!iii&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;lt;~~~~++____-_--??{jjruXYUYvnnuvczcczr[[[_-1)1z00ZCYYCOqqwZ0cjxj\[??]]]??--____+~~~&amp;lt;&amp;lt;&amp;gt;ii!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="559.1">llI;;::""^&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="705.41" style="animation-delay: 3.66s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;```^"",::;;I;:;l</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="165.5">!!iii&amp;gt;&amp;gt;&amp;lt;&amp;lt;&amp;lt;~&amp;lt;~~+++++__--??fnxncYYYXunxnvvuunv)[}-![1{XZwmJYYYQmmmZZYrrf\[---??---_++~~~~&amp;lt;&amp;lt;&amp;gt;ii!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="550.9">llII;::,""^`&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="713.20" style="animation-delay: 3.70s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.'``^^"",::;;,';;I</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="173.7">l!!!ii&amp;gt;&amp;lt;&amp;lt;&amp;lt;~~~~~~~+~__--(nrruzXXXvxxxxnnuux[[1_</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="362.3">"</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="366.4">]}}twm0JYXXLO00QQzfft|]_-----_++~~~&amp;lt;&amp;lt;&amp;gt;&amp;gt;ii!!l</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="546.8">lII;;::""^^`'&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="720.99" style="animation-delay: 3.74s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..'``^"",::;;;IIIIl</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="181.9">l!!ii&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;lt;&amp;lt;~~~~~~+_-]rrrxvcccvxxnvcvuu)-?[?</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="362.3">l</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="366.4">_?}(0ZLYXczJQQLLCvff\(]~_____++~~&amp;lt;&amp;lt;&amp;gt;&amp;gt;ii!!l</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="538.6">llI;;::,""^``'.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="728.78" style="animation-delay: 3.78s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..'``^^"",::;;;II</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="177.8">ll!!!iii&amp;gt;i&amp;gt;&amp;gt;&amp;lt;&amp;lt;~&amp;lt;~~~~+__\rfjnvvvuxjjnnxx\_]?-?[]??[1cQzcvvYCJJUUnt/|)]~+++++~~&amp;lt;&amp;lt;&amp;gt;&amp;gt;ii!!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="530.4">llII;::,""^^`'..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="736.57" style="animation-delay: 3.82s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.''`^^^"",:::;IIlll</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="194.2">!!!!iii&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;gt;&amp;lt;&amp;lt;&amp;lt;~++[fttjxnnxrjfjrff]__-?--?[[]]]uUvnuXYYYXXx/\)1?&amp;lt;~~~~~&amp;lt;&amp;lt;&amp;gt;iii!!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="522.2">llII;;::,"^^``'..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="744.36" style="animation-delay: 3.86s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..'``^^""",,,:;;IIlll</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="206.5">l!!!!!iii&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;lt;~~_|/\tjrrjffttt/(+__+~_--_-]]??nujxvzccvvr\(1{-&amp;gt;&amp;gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;gt;ii!!l</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="509.9">llIII;;:,,"^^``'..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="752.15" style="animation-delay: 3.90s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.''`^^""",,,;;IIlll</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="206.5">l!!!!ii&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;lt;~+~1f/tjxxrjftttt{+++__++-??-?]?[rxncvvvunx/|1{-&amp;gt;&amp;gt;&amp;gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;ii!!!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="509.9">lII;;:::,"^^``'..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="759.94" style="animation-delay: 3.94s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.....'''''`````^^^^^^^^^"""""",,,;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="280.3">&amp;gt;ii&amp;gt;&amp;lt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;iiii</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="333.6">I::,,::,,:;;:;I;</tspan>
-      <tspan class="ascii-char" fill="#22D3EE" x="399.2">!~&amp;lt;~~~~~~&amp;lt;i!</tspan>
-      <tspan class="ascii-char" fill="#8B5CF6" x="448.4">lI:""""""""^^^^^`````'''....&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="767.73" style="animation-delay: 3.98s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="775.52" style="animation-delay: 4.02s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="783.31" style="animation-delay: 4.06s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="791.10" style="animation-delay: 4.10s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="798.89" style="animation-delay: 4.14s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="806.68" style="animation-delay: 4.18s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="814.47" style="animation-delay: 4.22s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="822.26" style="animation-delay: 4.26s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="830.05" style="animation-delay: 4.30s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="837.84" style="animation-delay: 4.34s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="845.63" style="animation-delay: 4.38s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="853.42" style="animation-delay: 4.42s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
-    </text>
-    <text class="ascii-line" y="861.21" style="animation-delay: 4.46s;">
-      <tspan class="ascii-char" fill="#8B5CF6" x="63.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="103.18" style="animation-delay: 0.54s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="116.35" style="animation-delay: 0.58s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="129.53" style="animation-delay: 0.62s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="142.71" style="animation-delay: 0.66s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">:+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="155.88" style="animation-delay: 0.70s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@%%%%%%%@@%%%%%%%%%%%%%%%%%%%%%%%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="169.06" style="animation-delay: 0.74s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#+=--=**+++++++#%@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="182.24" style="animation-delay: 0.78s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@@@@@@@@%@@@*==--=+*++*+=--+++=+##@%@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="195.41" style="animation-delay: 0.82s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@@@@%@@%#*=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="307.2">::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="320.4">:---++++=-+**=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="412.6">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="419.2">+*+==#%%@%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="208.59" style="animation-delay: 0.86s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@%@@#+===:--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="313.8">:::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="333.5">-===--==--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="399.4">::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="425.8">=+==+#%%@%@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="221.76" style="animation-delay: 0.90s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@%@%*-=====---</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="313.8">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="326.9">:-:-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="353.3">:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="366.5">-:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="379.6">&#160;&#160;.....</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="425.8">--=-=*%#%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="234.94" style="animation-delay: 0.94s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@%@#==--</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="261.1">::....&#160;&#160;..&#160;..&#160;..&#160;&#160;&#160;&#160;.::...:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="438.9">-:-=*%%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="248.12" style="animation-delay: 0.98s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%@#*=::</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="254.5">:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="386.2">:-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="399.4">:..:..:.:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="458.7">=+%@%@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="261.29" style="animation-delay: 1.02s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%%%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="234.7">..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="373.1">-=+++-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="412.6">:.&#160;...:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="458.7">-*%@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="274.47" style="animation-delay: 1.06s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@#+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="221.5">:..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="313.8">=*#%%@@@@@@@@@@@%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="432.4">:..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="458.7">*%@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="287.65" style="animation-delay: 1.10s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@%%%+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="214.9">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="294.0">-+#%%@@@@@@@@@@@@@@%%%*=+%@%%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="300.82" style="animation-delay: 1.14s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@%%#=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="208.4">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="274.2">+*#%%@@@@@@@@@@@@@@@@@@@%@#===+%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="314.00" style="animation-delay: 1.18s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="201.8">&#160;:.&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="261.1">*#%%@@@@@@@@@@@@@@@@@@@@@@@%@#--+=+%%@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="327.18" style="animation-delay: 1.22s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@%@#-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="208.4">.&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="254.5">#%%@@@@@@@@@@@@@@@@@@@@@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="465.3">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="471.9">-*%%@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="340.35" style="animation-delay: 1.26s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@%%*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="208.4">&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="247.9">#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%=-*%%@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="353.53" style="animation-delay: 1.30s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@%@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="208.4">&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="241.3">*@%@@@@@@%%@@@@@@@@@@@@@@@@@@@@%@%+=+#%@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="366.71" style="animation-delay: 1.34s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="201.8">.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="208.4">+#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="221.5">&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="241.3">%@@%*+++**#%@@@@@@@@@@@@%%@%%@@%@%+*#@%@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="379.88" style="animation-delay: 1.38s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="228.1">&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="241.3">@%#*###+-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="300.6">..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="313.8">=*%%@@@@%@%+--=*%%@@%@%+*%%@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="393.06" style="animation-delay: 1.42s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="228.1">&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="241.3">%@%%%%@%%%*+*#%%@@@@@%###%%@@@@%@#+@%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="406.24" style="animation-delay: 1.46s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="228.1">:&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="241.3">%@%#++++===--=*%%@%@#+-=**#%%#%%@#*@%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="419.41" style="animation-delay: 1.50s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%@**</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="234.7">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="241.3">%%#+:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="274.2">&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="280.8">#-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="294.0">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="307.2">+-:++#@@%@%==#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="399.4">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="412.6">-@+#@%@##@%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="432.59" style="animation-delay: 1.54s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@%@%#=%@@%######+++*#%@@@%%#+*#%@@%%@%@%%@%@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="445.76" style="animation-delay: 1.58s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@%%*@@@@@%%####%%#%%@@@@@@@@%%%@@@@@@%%@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="458.94" style="animation-delay: 1.62s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@%@%*@%@@@@%%@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="472.12" style="animation-delay: 1.66s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@%@%*%%@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="485.29" style="animation-delay: 1.70s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@%#%%%%@@@@@%#*#%%%%@@@%%%%%@@@@@@@%%@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="498.47" style="animation-delay: 1.74s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@%%%#%%%%%#*#%#*+++#%%%@@%#%@@@@@@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="511.65" style="animation-delay: 1.78s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@%#####*-+*#%##**#*%@%@@@%#%@@@@@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="524.82" style="animation-delay: 1.82s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@%#####=--=#%%##%@@%%@@@@%*%@%%%%@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="538.00" style="animation-delay: 1.86s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@@%####*+##=-=---==+*******%@%%%@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="551.18" style="animation-delay: 1.90s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@%@%#****#%%%#*%@@@@@%%%%%#%%%%@@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="564.35" style="animation-delay: 1.94s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@@%@%+***##%%##****%%@@@@@%%#%%@@@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="577.53" style="animation-delay: 1.98s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@@%%%*-=+*#%%%%%%%%%@@@@@@%*##%%%@@@@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="590.71" style="animation-delay: 2.02s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@@%%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="261.1">&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">*%=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="287.4">.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="294.0">-*%%@@@%%%@@@@@@#+%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="432.4">&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="438.9">+@%%%@@@@@@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="603.88" style="animation-delay: 2.06s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@@@%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="254.5">&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">#@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="300.6">:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="307.2">=######%%@@%#*#@%@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="432.4">..:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="452.1">=#%@@@%%@@@@@@@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="617.06" style="animation-delay: 2.10s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@@@@@%%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="247.9">&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">%@%@%@%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="320.4">.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="326.9">---====-=#@%@@%@-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="438.9">&#160;:</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="452.1">:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="458.7">:...</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="485.1">-+#@@@%%%@@%@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="630.24" style="animation-delay: 2.14s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@@@@@%%@@*-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="234.7">&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">#@%@@@%%@#:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="340.1">&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="359.9">:*@@%@@@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="438.9">&#160;.:::....::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="524.6">=*%@@@@=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="577.3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="643.41" style="animation-delay: 2.18s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=@%@@@@%%@@#-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="208.4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">*@%@@@@%@@%#==**%@%@@@@%@%-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="445.5">.:::::..:::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="531.2">:----=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="570.7">:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="656.59" style="animation-delay: 2.22s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=%%%@@%*-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="182.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">=@%@@%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="320.4">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="386.2">+%%@@@%@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="445.5">&#160;.::::::.:::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="537.8">:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="544.4">::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="557.5">:-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="570.7">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="669.76" style="animation-delay: 2.26s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="122.7">=%*-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="149.1">.&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="267.6">:@%@@%%*=</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="326.9">.&#160;&#160;&#160;&#160;&#160;.:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="386.2">*%%%@@%@*</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="445.5">&#160;..:::......::::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="564.1">-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="570.7">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="682.94" style="animation-delay: 2.30s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;....&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="274.2">%@%%%%%%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="340.1">&#160;&#160;&#160;&#160;..</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="379.6">*%%@@%%%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="445.5">&#160;&#160;...:...:::::::::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="564.1">:</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="570.7">.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="696.12" style="animation-delay: 2.34s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="274.2">*%%@@@@@%%#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="346.7">&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="373.1">=@%@@@@@%@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="445.5">.&#160;.....::...:..::::.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="709.29" style="animation-delay: 2.38s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="274.2">-@%@@@@@%@%</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="346.7">.&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="373.1">-%%@@@@@@%@</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="445.5">:&#160;................:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="722.47" style="animation-delay: 2.42s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="280.8">%@%@@@@%@-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="346.7">&#160;&#160;.&#160;.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="379.6">#@%@@@@@%@-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="452.1">&#160;................:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="735.65" style="animation-delay: 2.46s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="280.8">*@%@@@%@#</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="340.1">&#160;&#160;&#160;&#160;.:.</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="386.2">*@%@@@@%@-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="452.1">&#160;................:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="748.82" style="animation-delay: 2.50s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="280.8">-@@@@@@@+</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="340.1">&#160;&#160;&#160;&#160;.&#160;::</tspan>
+      <tspan class="ascii-char" fill="#22D3EE" x="392.8">%@@@@@@@-</tspan>
+      <tspan class="ascii-char" fill="#8B5CF6" x="452.1">&#160;......&#160;...........&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="762.00" style="animation-delay: 2.54s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="775.18" style="animation-delay: 2.58s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="788.35" style="animation-delay: 2.62s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="801.53" style="animation-delay: 2.66s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="814.71" style="animation-delay: 2.70s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="827.88" style="animation-delay: 2.74s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="841.06" style="animation-delay: 2.78s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="854.24" style="animation-delay: 2.82s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="867.41" style="animation-delay: 2.86s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="880.59" style="animation-delay: 2.90s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="893.76" style="animation-delay: 2.94s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="ascii-line" y="906.94" style="animation-delay: 2.98s;">
+      <tspan class="ascii-char" fill="#8B5CF6" x="70.0">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
     </text>
   </g>
 
-  <line x1="20" y1="883.9999999999999" x2="680" y2="883.9999999999999" stroke="#273449" stroke-width="0.5"/>
-  <text class="prompt" x="20" y="903.9999999999999">shahnoor@github:~$</text>
-  <rect class="cursor" x="180" y="889.9999999999999" width="8" height="15" rx="1" style="animation-delay: 4.70s;"/>
+  <line x1="20" y1="935.1176470588235" x2="680" y2="935.1176470588235" stroke="#273449" stroke-width="0.5"/>
+  <text class="prompt" x="20" y="955.1176470588235">shahnoor@github:~$</text>
+  <rect class="cursor" x="180" y="941.1176470588235" width="8" height="15" rx="1" style="animation-delay: 3.22s;"/>
 </svg>
