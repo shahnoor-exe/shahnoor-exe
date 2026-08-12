@@ -26,7 +26,19 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="./assets/neofetch-profile.svg?v=6" width="600" alt="Neofetch-style profile card showing Shahnoor's details" />
+<table>
+<tr>
+<td width="42%" align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg?v=6" />
+    <img src="./assets/portrait-ascii.svg?v=6" width="450" alt="Animated terminal-style ASCII portrait generated from Shahnoor Ahmed Laskar's real profile image" />
+  </picture>
+</td>
+<td width="58%" align="center">
+  <img src="./assets/neofetch-profile.svg?v=6" width="520" alt="Neofetch-style profile card showing Shahnoor's details" />
+</td>
+</tr>
+</table>
 </div>
 
 ---
@@ -37,12 +49,7 @@
 
 ## `> whoami`
 
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg?v=6" />
-    <img src="./assets/portrait-ascii.svg?v=6" width="700" alt="Large animated terminal-style coded portrait of Shahnoor Ahmed Laskar" />
-  </picture>
-</p>
+<br/>
 
 ```javascript
 const shahnoor = {
