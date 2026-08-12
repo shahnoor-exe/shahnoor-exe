@@ -51,6 +51,10 @@
 
 <br/>
 
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
+
 ```javascript
 const shahnoor = {
     name: "Shahnoor Ahmed Laskar",
@@ -98,13 +102,18 @@ $ cat interests.txt
 > Production-grade intelligent systems
 ```
 
+</td>
+<td width="45%" align="center" valign="top">
+
 <br/>
 
-<p align="center">
-  <a href="https://github.com/shahnoor-exe">
-    <img src="./assets/top-languages.svg?v=6" width="520" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
-  </a>
-</p>
+<a href="https://github.com/shahnoor-exe">
+  <img src="./assets/top-languages.svg?v=6" width="100%" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
+</a>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
