@@ -33,6 +33,9 @@ COLORS = {
     "bg": "#0D1117",
     "frame": "#273449",
     "titlebar": "#161B22",
+    "dot_r": "#FF5F56",
+    "dot_y": "#FFBD2E",
+    "dot_g": "#27C93F",
     "cyan": "#22D3EE",
     "violet": "#8B5CF6",
     "teal": "#14B8A6",
@@ -261,7 +264,7 @@ def _card_wrapper(title: str, content: str, width: int = 420, height: int = 160)
 
 def generate_stats_svg(stats: dict) -> str:
     if not stats:
-        return _card_wrapper("github-stats", '    <text class="metric-label" x="210" y="60" fill="#FFBD2E">[!] Data unavailable</text>')
+        return _card_wrapper("github-stats", '    <text class="metric-label" x="210" y="60" fill="#FFBD2E">Stats analytics temporarily unavailable</text>')
         
     content = f'''
     <text class="metric-value" x="70" y="50">{stats["contributions"]}</text>
@@ -281,7 +284,7 @@ def generate_stats_svg(stats: dict) -> str:
 
 def generate_streak_svg(streak: dict) -> str:
     if not streak:
-        return _card_wrapper("github-streak", '    <text class="metric-label" x="210" y="60" fill="#FFBD2E">[!] Data unavailable</text>')
+        return _card_wrapper("github-streak", '    <text class="metric-label" x="210" y="60" fill="#FFBD2E">Streak analytics temporarily unavailable</text>')
         
     content = f'''
     <!-- Total -->
@@ -310,7 +313,7 @@ def generate_streak_svg(streak: dict) -> str:
 
 def generate_langs_svg(langs: dict) -> str:
     if not langs:
-        return _card_wrapper("top-languages", '    <text class="metric-label" x="210" y="60" fill="#FFBD2E">[!] Data unavailable</text>')
+        return _card_wrapper("top-languages", '    <text class="metric-label" x="210" y="60" fill="#FFBD2E">Language analytics temporarily unavailable</text>')
         
     total_bytes = sum(langs.values())
     sorted_langs = sorted(langs.items(), key=lambda x: x[1], reverse=True)[:6]
@@ -345,19 +348,28 @@ def main():
     stats = fetch_stats()
     if stats:
         print(f"       -> {stats['contributions']} contribs, {stats['stars']} stars, {stats['commits']} commits")
-        with open(OUT_STATS, "w", encoding="utf-8") as f: f.write(generate_stats_svg(stats))
+    else:
+        print("       -> [!] API Failed. Using fallback SVG.")
+    with open(OUT_STATS, "w", encoding="utf-8") as f: 
+        f.write(generate_stats_svg(stats))
     
     print("[info] Fetching GitHub Streak...")
     streak = fetch_streak()
     if streak:
         print(f"       -> Current: {streak['current']}, Longest: {streak['longest']}, Total: {streak['total']}")
-        with open(OUT_STREAK, "w", encoding="utf-8") as f: f.write(generate_streak_svg(streak))
+    else:
+        print("       -> [!] API Failed. Using fallback SVG.")
+    with open(OUT_STREAK, "w", encoding="utf-8") as f: 
+        f.write(generate_streak_svg(streak))
         
     print("[info] Fetching Top Languages...")
     langs = fetch_languages()
     if langs:
         print(f"       -> Found {len(langs)} languages.")
-        with open(OUT_LANGS, "w", encoding="utf-8") as f: f.write(generate_langs_svg(langs))
+    else:
+        print("       -> [!] API Failed. Using fallback SVG.")
+    with open(OUT_LANGS, "w", encoding="utf-8") as f: 
+        f.write(generate_langs_svg(langs))
         
     print("[success] Analytics SVGs generated successfully.")
 

@@ -25,19 +25,9 @@
 <!-- HERO SECTION: Portrait + Neofetch Profile Card                           -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-<table>
-<tr>
-<td width="42%" align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg?v=1" />
-    <img src="./assets/portrait-ascii.svg?v=1" width="520" alt="Animated terminal-style ASCII portrait generated from Shahnoor Ahmed Laskar's real profile image" />
-  </picture>
-</td>
-<td width="58%" align="center">
-  <img src="./assets/neofetch-profile.svg" width="500" alt="Neofetch-style profile card showing Shahnoor's details" />
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="./assets/neofetch-profile.svg?v=6" width="600" alt="Neofetch-style profile card showing Shahnoor's details" />
+</div>
 
 ---
 
@@ -47,12 +37,12 @@
 
 ## `> whoami`
 
-<table>
-<tr>
-<td width="58%">
-<div align="center">
-  <img src="./assets/profile-photo.jpg" width="180" style="border-radius: 12px; margin-bottom: 10px;" alt="Professional profile photo of Shahnoor Ahmed Laskar" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/portrait-ascii-static.svg?v=6" />
+    <img src="./assets/portrait-ascii.svg?v=6" width="700" alt="Large animated terminal-style coded portrait of Shahnoor Ahmed Laskar" />
+  </picture>
+</p>
 
 ```javascript
 const shahnoor = {
@@ -86,10 +76,7 @@ const shahnoor = {
 };
 ```
 
-</td>
-<td width="42%">
-
-```
+```bash
 $ status --current
 > Advanced AI Systems & Data Science
 
@@ -106,13 +93,11 @@ $ cat interests.txt
 
 <br/>
 
-<a href="https://github.com/shahnoor-exe">
-  <img src="./assets/top-languages.svg?v=1" width="420" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
-</a>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/shahnoor-exe">
+    <img src="./assets/top-languages.svg?v=6" width="520" alt="Top programming languages used across Shahnoor Ahmed Laskar's public GitHub repositories" />
+  </a>
+</p>
 
 <br/>
 
@@ -455,12 +440,12 @@ Patent filed for automotive safety
 <tr>
 <td align="center" width="50%">
 
-<img width="100%" src="./assets/github-stats.svg?v=1" alt="Shahnoor's GitHub Stats" />
+<img width="100%" src="./assets/github-stats.svg?v=6" alt="Shahnoor's GitHub Stats" />
 
 </td>
 <td align="center" width="50%">
 
-<img width="100%" src="./assets/github-streak.svg?v=1" alt="Shahnoor's GitHub Streak" />
+<img width="100%" src="./assets/github-streak.svg?v=6" alt="Shahnoor's GitHub Streak" />
 
 </td>
 </tr>
