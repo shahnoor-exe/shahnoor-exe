@@ -100,7 +100,7 @@ $ uptime
 
 $ java -version
 > Core: Advanced Java Completed
-> DSA: Graphs & Non-Linear Data Structures
+> DSA: Linear & Non-Linear Data Structures & Algorithms
 
 $ cat interests.txt
 > AI-driven applications
