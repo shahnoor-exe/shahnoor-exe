@@ -68,7 +68,7 @@
   <line class="divider" x1="20" y1="140" x2="780" y2="140"/>
 
   <!-- Recent activity -->
-  <text class="info-text" x="20" y="160">Last 7 days: 7/7 active</text>
+  <text class="info-text" x="20" y="160">Last 7 days: 6/7 active</text>
   <text class="stat-label" x="20" y="178">52-Week Repository Activity</text>
 
   <!-- Day labels -->
@@ -439,7 +439,7 @@
     <rect x="742" y="202" width="12" height="12" rx="2" fill="#A855F7" stroke="#A855F7" stroke-width="0.5"><title>2026-08-17: 8 commit(s)</title></rect>
     <rect x="742" y="216" width="12" height="12" rx="2" fill="#A855F7" stroke="#A855F7" stroke-width="0.5"><title>2026-08-18: 37 commit(s)</title></rect>
     <rect x="742" y="230" width="12" height="12" rx="2" fill="#A855F7" stroke="#A855F7" stroke-width="0.5"><title>2026-08-19: 27 commit(s)</title></rect>
-    <rect x="742" y="244" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
+    <rect x="742" y="244" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title>2026-08-20: 0 commit(s)</title></rect>
     <rect x="742" y="258" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
     <rect x="742" y="272" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
   </g>
