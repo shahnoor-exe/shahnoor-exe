@@ -48,7 +48,7 @@
   <!-- Stats Row -->
   <g>
     <text class="stat-label" x="70" y="92">Current Streak</text>
-    <text class="stat-value" x="70" y="122">2</text>
+    <text class="stat-value" x="70" y="122">3</text>
     <text class="stat-unit" x="94" y="122">days</text>
 
     <text class="stat-label" x="250" y="92">Longest Streak</text>
@@ -56,11 +56,11 @@
     <text class="stat-unit" x="292" y="122">days</text>
 
     <text class="stat-label" x="430" y="92">Practice Days</text>
-    <text class="stat-value" x="430" y="122">57</text>
+    <text class="stat-value" x="430" y="122">58</text>
     <text class="stat-unit" x="472" y="122">days</text>
 
     <text class="stat-label" x="610" y="92">Solution Commits</text>
-    <text class="stat-value" x="610" y="122">349</text>
+    <text class="stat-value" x="610" y="122">351</text>
     <text class="stat-unit" x="670" y="122">total</text>
   </g>
 
@@ -438,7 +438,7 @@
     <rect x="742" y="188" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title>2026-08-23: 0 commit(s)</title></rect>
     <rect x="742" y="202" width="12" height="12" rx="2" fill="#A855F7" stroke="#A855F7" stroke-width="0.5"><title>2026-08-24: 10 commit(s)</title></rect>
     <rect x="742" y="216" width="12" height="12" rx="2" fill="#A855F7" stroke="#A855F7" stroke-width="0.5"><title>2026-08-25: 5 commit(s)</title></rect>
-    <rect x="742" y="230" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
+    <rect x="742" y="230" width="12" height="12" rx="2" fill="#14B8A6" stroke="#14B8A6" stroke-width="0.5"><title>2026-08-26: 2 commit(s)</title></rect>
     <rect x="742" y="244" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
     <rect x="742" y="258" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
     <rect x="742" y="272" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
