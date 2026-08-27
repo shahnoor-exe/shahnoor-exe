@@ -24,7 +24,7 @@
   <g transform="translate(0, 40)">
 
     <!-- Total -->
-    <text class="metric-value" x="70" y="55">519</text>
+    <text class="metric-value" x="70" y="55">540</text>
     <text class="metric-label" x="70" y="80">Total Days</text>
     
     <line class="divider" x1="140" y1="20" x2="140" y2="90"/>
