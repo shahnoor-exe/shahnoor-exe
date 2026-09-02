@@ -56,11 +56,11 @@
     <text class="stat-unit" x="292" y="122">days</text>
 
     <text class="stat-label" x="430" y="92">Practice Days</text>
-    <text class="stat-value" x="430" y="122">62</text>
+    <text class="stat-value" x="430" y="122">63</text>
     <text class="stat-unit" x="472" y="122">days</text>
 
     <text class="stat-label" x="610" y="92">Solution Commits</text>
-    <text class="stat-value" x="610" y="122">396</text>
+    <text class="stat-value" x="610" y="122">400</text>
     <text class="stat-unit" x="670" y="122">total</text>
   </g>
 
@@ -439,7 +439,7 @@
     <rect x="742" y="202" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title>2026-08-31: 0 commit(s)</title></rect>
     <rect x="742" y="216" width="12" height="12" rx="2" fill="#A855F7" stroke="#A855F7" stroke-width="0.5"><title>2026-09-01: 5 commit(s)</title></rect>
     <rect x="742" y="230" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title>2026-09-02: 0 commit(s)</title></rect>
-    <rect x="742" y="244" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
+    <rect x="742" y="244" width="12" height="12" rx="2" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="0.5"><title>2026-09-03: 4 commit(s)</title></rect>
     <rect x="742" y="258" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
     <rect x="742" y="272" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
   </g>
