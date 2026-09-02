@@ -24,46 +24,46 @@
   <g transform="translate(0, 40)">
 <style>.lang-name { fill: #E5E7EB; font-family: monospace; font-size: 11px; font-weight: bold;} .lang-pct { fill: #94A3B8; font-family: monospace; font-size: 11px; }</style>
     <g transform="translate(20, 20)">
-      <circle cx="6" cy="-4" r="4" fill="#3178C6"/>
-      <text class="lang-name" x="18" y="0">TypeScript</text>
-      <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#3178C6" x="140" y="-8" width="41.74865410283779" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">23.2%</text>
-    </g>
-    <g transform="translate(20, 42)">
-      <circle cx="6" cy="-4" r="4" fill="#00B4AB"/>
-      <text class="lang-name" x="18" y="0">Dart</text>
-      <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#00B4AB" x="140" y="-8" width="39.62920506655746" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">22.0%</text>
-    </g>
-    <g transform="translate(20, 64)">
-      <circle cx="6" cy="-4" r="4" fill="#F1E05A"/>
-      <text class="lang-name" x="18" y="0">JavaScript</text>
-      <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#F1E05A" x="140" y="-8" width="37.7242677406965" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">21.0%</text>
-    </g>
-    <g transform="translate(20, 86)">
       <circle cx="6" cy="-4" r="4" fill="#3572A5"/>
       <text class="lang-name" x="18" y="0">Python</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#3572A5" x="140" y="-8" width="33.642510191046306" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">18.7%</text>
+      <rect fill="#3572A5" x="140" y="-8" width="44.60160975166176" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">24.8%</text>
+    </g>
+    <g transform="translate(20, 42)">
+      <circle cx="6" cy="-4" r="4" fill="#3178C6"/>
+      <text class="lang-name" x="18" y="0">TypeScript</text>
+      <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
+      <rect fill="#3178C6" x="140" y="-8" width="40.94400468420434" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">22.7%</text>
+    </g>
+    <g transform="translate(20, 64)">
+      <circle cx="6" cy="-4" r="4" fill="#00B4AB"/>
+      <text class="lang-name" x="18" y="0">Dart</text>
+      <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
+      <rect fill="#00B4AB" x="140" y="-8" width="34.51633150504461" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">19.2%</text>
+    </g>
+    <g transform="translate(20, 86)">
+      <circle cx="6" cy="-4" r="4" fill="#F1E05A"/>
+      <text class="lang-name" x="18" y="0">JavaScript</text>
+      <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
+      <rect fill="#F1E05A" x="140" y="-8" width="32.85716503614068" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">18.3%</text>
     </g>
     <g transform="translate(20, 108)">
       <circle cx="6" cy="-4" r="4" fill="#B07219"/>
       <text class="lang-name" x="18" y="0">Java</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#B07219" x="140" y="-8" width="12.118612956687258" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">6.7%</text>
+      <rect fill="#B07219" x="140" y="-8" width="10.977472791914424" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">6.1%</text>
     </g>
     <g transform="translate(20, 130)">
       <circle cx="6" cy="-4" r="4" fill="#E34C26"/>
       <text class="lang-name" x="18" y="0">HTML</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#E34C26" x="140" y="-8" width="7.2720080976642825" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">4.0%</text>
+      <rect fill="#E34C26" x="140" y="-8" width="6.3588073909292335" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">3.5%</text>
     </g>
   </g>
 </svg>
