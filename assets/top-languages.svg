@@ -27,42 +27,42 @@
       <circle cx="6" cy="-4" r="4" fill="#3572A5"/>
       <text class="lang-name" x="18" y="0">Python</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#3572A5" x="140" y="-8" width="45.16507394453472" height="8" rx="4"/>
+      <rect fill="#3572A5" x="140" y="-8" width="45.12735492765128" height="8" rx="4"/>
       <text class="lang-pct" x="330" y="0">25.1%</text>
     </g>
     <g transform="translate(20, 42)">
       <circle cx="6" cy="-4" r="4" fill="#3178C6"/>
       <text class="lang-name" x="18" y="0">TypeScript</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#3178C6" x="140" y="-8" width="45.0355057696015" height="8" rx="4"/>
+      <rect fill="#3178C6" x="140" y="-8" width="44.99789495987353" height="8" rx="4"/>
       <text class="lang-pct" x="330" y="0">25.0%</text>
     </g>
     <g transform="translate(20, 64)">
       <circle cx="6" cy="-4" r="4" fill="#00B4AB"/>
       <text class="lang-name" x="18" y="0">Dart</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#00B4AB" x="140" y="-8" width="32.14443281650189" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">17.9%</text>
+      <rect fill="#00B4AB" x="140" y="-8" width="32.11758781663312" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">17.8%</text>
     </g>
     <g transform="translate(20, 86)">
       <circle cx="6" cy="-4" r="4" fill="#F1E05A"/>
       <text class="lang-name" x="18" y="0">JavaScript</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#F1E05A" x="140" y="-8" width="30.59928120955082" height="8" rx="4"/>
+      <rect fill="#F1E05A" x="140" y="-8" width="30.57372662270389" height="8" rx="4"/>
       <text class="lang-pct" x="330" y="0">17.0%</text>
     </g>
     <g transform="translate(20, 108)">
       <circle cx="6" cy="-4" r="4" fill="#B07219"/>
       <text class="lang-name" x="18" y="0">Java</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#B07219" x="140" y="-8" width="11.758544242791439" height="8" rx="4"/>
-      <text class="lang-pct" x="330" y="0">6.5%</text>
+      <rect fill="#B07219" x="140" y="-8" width="11.899048879582075" height="8" rx="4"/>
+      <text class="lang-pct" x="330" y="0">6.6%</text>
     </g>
     <g transform="translate(20, 130)">
       <circle cx="6" cy="-4" r="4" fill="#E34C26"/>
       <text class="lang-name" x="18" y="0">HTML</text>
       <rect fill="#161B22" x="140" y="-8" width="180" height="8" rx="4"/>
-      <rect fill="#E34C26" x="140" y="-8" width="5.921841866101182" height="8" rx="4"/>
+      <rect fill="#E34C26" x="140" y="-8" width="5.9168963178307905" height="8" rx="4"/>
       <text class="lang-pct" x="330" y="0">3.3%</text>
     </g>
   </g>
