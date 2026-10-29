@@ -48,7 +48,7 @@
   <!-- Stats Row -->
   <g>
     <text class="stat-label" x="70" y="92">Current Streak</text>
-    <text class="stat-value" x="70" y="122">3</text>
+    <text class="stat-value" x="70" y="122">0</text>
     <text class="stat-unit" x="94" y="122">days</text>
 
     <text class="stat-label" x="250" y="92">Longest Streak</text>
@@ -440,7 +440,7 @@
     <rect x="742" y="216" width="12" height="12" rx="2" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="0.5"><title>2026-10-27: 3 commit(s)</title></rect>
     <rect x="742" y="230" width="12" height="12" rx="2" fill="#0E4429" stroke="#0E4429" stroke-width="0.5"><title>2026-10-28: 1 commit(s)</title></rect>
     <rect x="742" y="244" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title>2026-10-29: 0 commit(s)</title></rect>
-    <rect x="742" y="258" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
+    <rect x="742" y="258" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title>2026-10-30: 0 commit(s)</title></rect>
     <rect x="742" y="272" width="12" height="12" rx="2" fill="#161B22" stroke="#273449" stroke-width="0.5"><title></title></rect>
   </g>
 
